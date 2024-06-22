@@ -109,6 +109,7 @@ def vvv(key):
             # If conversion fails, store the original string
             int_value = tata
 
+        update_json(INPUT_VALUES,key, int_value)
     return int_value
 
 button_list_items = [

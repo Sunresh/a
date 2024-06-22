@@ -43,6 +43,8 @@ def create_entry(frame,json_key):
     if find_json_value(read_file=INPUT_VALUES,key=json_key) is not None:
         entry_var = tk.StringVar(value=read_da[json_key])  # Create a StringVar with not　the default value
 
-    entry = tk.Entry(master=frame,textvariable=entry_var)
+    labels = tk.LabelFrame(master=frame,text=json_key)
+    labels.grid(row=1,column=1, columnspan=2)
+    entry = tk.Entry(master=labels,textvariable=entry_var)
     entry.grid(row=1,column=1, columnspan=2)
     return entry
