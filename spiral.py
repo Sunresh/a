@@ -34,7 +34,6 @@ def plot_csv_file(filename):
     ax.set_zlim([0, c_round(zm)])  # Example z-axis range
     plt.show() #return fig, ax
 
-    
 
 def spiral(total_steps,base_height,total_height):
     x_data = []
@@ -54,7 +53,7 @@ def spiral(total_steps,base_height,total_height):
         else:
             radius = radius_of_coil
 
-        x = round(radius * math.cos(nt * 2 * math.pi * iin / total_steps) + radius_of_coil, 4)
+        x = round(radius * math.cos(nt * 2 * np.pi * iin / total_steps) + radius_of_coil, 4)
         y = round(radius * math.sin(nt * 2 * math.pi * iin / total_steps) + radius_of_coil, 4)
         z = round(iin * total_height / total_steps, 4)
         x_data.append(x)
@@ -64,33 +63,17 @@ def spiral(total_steps,base_height,total_height):
 
     return list(zip(x_data, y_data, z_data))
 
+def radius_calc(iin,base_steps,base_height,slighted_height,total_steps,angle):
+    if iin < base_steps:
+        radius = 0
+        z_axix = base_height * (iin / base_steps)
 
-def y_axis_rrotat(angle,total_steps,base_height,total_height):
-    x_data = []
-    y_data = []
-    z_data = []
-    iin = 0
-    slighted_height = total_height - base_height
-    z_axix = 0
-    base_steps = base_height * (total_steps / total_height)
+    else:
+        radius = slighted_height * ( iin - base_steps)/(total_steps - base_steps) * np.sin(np.radians(angle))
+        z_axix = base_height + slighted_height * ( iin - base_steps)/(total_steps - base_steps) * np.cos(np.radians(angle))
 
-    while iin < total_steps:
-        if iin < base_steps:
-            radius = 0
-            z_axix = base_height * (iin / base_steps)
-        else:
-            radius = slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.sin(math.radians(angle))
-            z_axix = base_height + slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.cos(math.radians(angle))
+    return radius,z_axix
 
-        x = round(radius_of_coil, 4)
-        y = round(radius + radius_of_coil, 4)
-        z = round(z_axix, 4)
-        x_data.append(x)
-        y_data.append(y)
-        z_data.append(z)
-        iin += RESOLUTION_POINTS
-
-    return list(zip(x_data, y_data, z_data))
 
 def x_axis_rrotat(angle,total_steps,base_height,total_height):
     x_data = []
@@ -102,13 +85,7 @@ def x_axis_rrotat(angle,total_steps,base_height,total_height):
     base_steps = base_height * (total_steps / total_height)
 
     while iin < total_steps:
-        if iin < base_steps:
-            radius = 0
-            z_axix = base_height * (iin / base_steps)
-        else:
-            radius = slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.sin(math.radians(angle))
-            z_axix = base_height + slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.cos(math.radians(angle))
-
+        radius,z_axix = radius_calc(iin,base_steps,base_height,slighted_height,total_steps,angle)
         x = round(radius + radius_of_coil, 4)
         y = round(radius_of_coil, 4)
         z = round(z_axix, 4)
@@ -119,6 +96,26 @@ def x_axis_rrotat(angle,total_steps,base_height,total_height):
 
     return list(zip(x_data, y_data, z_data))
 
+def y_axis_rrotat(angle,total_steps,base_height,total_height):
+    x_data = []
+    y_data = []
+    z_data = []
+    iin = 0
+    slighted_height = total_height - base_height
+    z_axix = 0
+    base_steps = base_height * (total_steps / total_height)
+
+    while iin < total_steps:
+        radius,z_axix = radius_calc(iin,base_steps,base_height,slighted_height,total_steps,angle)
+        x = round(radius_of_coil, 4)
+        y = round(radius + radius_of_coil, 4)
+        z = round(z_axix, 4)
+        x_data.append(x)
+        y_data.append(y)
+        z_data.append(z)
+        iin += RESOLUTION_POINTS
+
+    return list(zip(x_data, y_data, z_data))
 
 
 def xy_rotate(angle,total_steps,base_height,total_height):
@@ -133,14 +130,7 @@ def xy_rotate(angle,total_steps,base_height,total_height):
         base_steps = base_height * (total_steps / total_height)
 
         while iin < total_steps:
-            if iin < base_steps:
-                radius = 0
-                z_axix = base_height * (iin / base_steps)
-
-            else:
-                radius = slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.sin(math.radians(angle))
-                z_axix = base_height + slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.cos(math.radians(angle))
-
+            radius,z_axix = radius_calc(iin,base_steps,base_height,slighted_height,total_steps,angle)
             x = round(radius + radius_of_coil, 4)
             y = round(radius + radius_of_coil, 4)
             z = round(z_axix, 4)

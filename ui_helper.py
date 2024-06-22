@@ -36,19 +36,13 @@ def open_file_dialog(master):
         #load_settings(master,file_path)
 
 
-def create_labeled_entry(frame, label_text,json_key):
-    r1 = tk.Frame(frame)
+# Function to create entries with unique IDs
+def create_entry(frame,json_key):
     read_da = read_json(INPUT_VALUES)
     entry_var = tk.StringVar(value=json_key)
     if find_json_value(read_file=INPUT_VALUES,key=json_key) is not None:
         entry_var = tk.StringVar(value=read_da[json_key])  # Create a StringVar with not　the default value
 
-    entry = tk.Entry(master=r1,textvariable=entry_var)
+    entry = tk.Entry(master=frame,textvariable=entry_var)
     entry.grid(row=1,column=1, columnspan=2)
-
-    btn = tk.Button(r1, text=label_text, font=("Arial", 12), width=20, command=lambda item=label_text: update_json(INPUT_VALUES,json_key,entry.get()))
-    btn.grid(row=1,column=3)
-    
-    r1.pack(pady=10)
-    return r1
-
+    return entry

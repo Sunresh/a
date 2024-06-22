@@ -17,17 +17,9 @@ row2 = tk.Frame(root)
 row2.grid(row=1,column=2)
 
 def show_selected_item(selected_item):
-    total_steps = find_json_value(INPUT_VALUES,"steps")
-    angle_ = find_json_value(INPUT_VALUES,"anglr_")
     base_h = find_json_value(INPUT_VALUES,"base_h")
     total_h = find_json_value(INPUT_VALUES,"total_h")
     csv_file = find_json_value(INPUT_VALUES,"selected_file")
-
-    if not isinstance(total_steps, float):
-        update_json(INPUT_VALUES,"steps",100)
-
-    if not isinstance(angle_, float):
-        update_json(INPUT_VALUES,"anglr_",0)
 
     if not isinstance(base_h, float):
         update_json(INPUT_VALUES,"base_h",1)
@@ -37,6 +29,8 @@ def show_selected_item(selected_item):
         one_graph_all_param(file=csv_file)
 
     elif selected_item == "Generate_X_Rotate":
+        total_steps = vvv("steps")
+        angle_ = vvv("anglr_")
         spiral_data = x_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         logger.info(f"show_selected_item=={selected_item}")
@@ -44,16 +38,22 @@ def show_selected_item(selected_item):
 
     
     elif selected_item == "Generate_Y_Rotate":
+        total_steps = vvv("steps")
+        angle_ = vvv("anglr_")
         spiral_data = y_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         plot_csv_file(SPIRAL_CSV_FILE)
 
     elif selected_item == "Generate_XT_Rotate":
+        total_steps = vvv("steps")
+        angle_ = vvv("anglr_")
         spiral_data = xy_rotate(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         plot_csv_file(SPIRAL_CSV_FILE)
 
     elif selected_item == "Generate_3D_CSV":
+        total_steps = vvv("steps")
+        angle_ = vvv("anglr_")
         spiral_data = spiral(total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         plot_csv_file(SPIRAL_CSV_FILE)
@@ -85,6 +85,32 @@ def show_selected_item(selected_item):
         logger.info(f"You selected: {selected_item}")
         #label.config(text="You selected: " + selected_item)
 
+
+my_list ={}
+
+def create_labeled_entry(frame, label_text,json_key):
+    r1 = tk.Frame(frame)
+    entry = create_entry(r1,json_key)
+    my_list[json_key]= entry
+
+    # btn = tk.Button(r1, text=label_text, font=("Arial", 12), width=20, command=lambda item=label_text: update_json(INPUT_VALUES,json_key,entry.get()))
+    # btn.grid(row=1,column=3)
+    
+    r1.pack(pady=10)
+    return r1
+
+def vvv(key):
+    if key in my_list:
+        tata = my_list[key].get()
+        try:
+            # Attempt to convert the string to an integer to ensure type consistency
+            int_value = float(tata)
+        except ValueError:
+            # If conversion fails, store the original string
+            int_value = tata
+
+    return int_value
+
 button_list_items = [
     "All", 
     "Generate_X_Rotate", 
@@ -114,7 +140,6 @@ for item in button_list_items:
     button = tk.Button(row1, text=item, font=("Arial", 12), width=20, command=lambda item=item: show_selected_item(item))
     button.pack(pady=5)
 
-
 if read_json(INPUT_BTN_LIST) == []:
     save_as_json(default_input_list,INPUT_BTN_LIST)
 
@@ -124,5 +149,6 @@ for key in input_list_items:
     valu = input_list_items[key]
     create_labeled_entry(frame=row2, label_text=key, json_key=valu)
     
+
 # Run the tkinter main loop
 root.mainloop()
