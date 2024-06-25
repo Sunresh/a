@@ -17,13 +17,7 @@ row2 = tk.Frame(root)
 row2.grid(row=1,column=2)
 
 def show_selected_item(selected_item):
-    base_h = find_json_value(INPUT_VALUES,"base_h")
-    total_h = find_json_value(INPUT_VALUES,"total_h")
     csv_file = find_json_value(INPUT_VALUES,"selected_file")
-
-    if not isinstance(base_h, float):
-        update_json(INPUT_VALUES,"base_h",1)
-
     if selected_item == "All":
         csv_file = find_json_value(INPUT_VALUES,"selected_file")
         one_graph_all_param(file=csv_file)
@@ -31,6 +25,8 @@ def show_selected_item(selected_item):
     elif selected_item == "Generate_X_Rotate":
         total_steps = vvv("steps")
         angle_ = vvv("anglr_")
+        base_h = vvv("base_h")
+        total_h = vvv("total_h")
         spiral_data = x_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         logger.info(f"show_selected_item=={selected_item}")
@@ -40,13 +36,17 @@ def show_selected_item(selected_item):
     elif selected_item == "Generate_Y_Rotate":
         total_steps = vvv("steps")
         angle_ = vvv("anglr_")
+        total_h = vvv("total_h")
+        base_h = vvv("base_h")
         spiral_data = y_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         plot_csv_file(SPIRAL_CSV_FILE)
 
     elif selected_item == "Generate_XT_Rotate":
         total_steps = vvv("steps")
+        total_h = vvv("total_h")
         angle_ = vvv("anglr_")
+        base_h = vvv("base_h")
         spiral_data = xy_rotate(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         plot_csv_file(SPIRAL_CSV_FILE)
@@ -54,6 +54,8 @@ def show_selected_item(selected_item):
     elif selected_item == "Generate_3D_CSV":
         total_steps = vvv("steps")
         angle_ = vvv("anglr_")
+        total_h = vvv("total_h")
+        base_h = vvv("base_h")
         spiral_data = spiral(total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         plot_csv_file(SPIRAL_CSV_FILE)
