@@ -1,12 +1,13 @@
+import logging
 import os
+import customtkinter
 import tkinter as tk
 from tkinter import filedialog
 import pandas as pd
 
-from constants import *
-from tools import *
+from constants import INPUT_VALUES
+from tools import find_json_value, read_json, update_json
 
-logger = setup_logger(logger=logging.getLogger(__name__))
 
 def double_backslashes(input_string):
     return input_string.replace('\\', '\\\\')
@@ -16,7 +17,7 @@ def read_csv(file_path):
         return pd.read_csv(file_path)
     
     if not os.path.exists(file_path):
-        logger.error("File not found. Please provide a valid file path.")
+        logging.error("File not found. Please provide a valid file path.")
 
 def read_csv_two(file_paths):
     data = [None,None]
@@ -31,7 +32,7 @@ def open_file_dialog(master):
         filetypes=[("JSON files", "*.json"), ("All files", "*.*")]
     )
     if file_path:
-        logger.info(f"Selected file: {file_path}")
+        logging.info(f"Selected file: {file_path}")
         update_json(INPUT_VALUES,"selected_file",file_path)
         #load_settings(master,file_path)
 
@@ -45,6 +46,13 @@ def create_entry(frame,json_key):
 
     labels = tk.LabelFrame(master=frame,text=json_key)
     labels.grid(row=1,column=1, columnspan=2)
-    entry = tk.Entry(master=labels,textvariable=entry_var)
+    entry = customtkinter.CTkEntry(
+        master=labels,
+        width=200,
+        textvariable=entry_var,
+        height=30,
+        border_width=2,
+        corner_radius=10
+    )
     entry.grid(row=1,column=1, columnspan=2)
     return entry

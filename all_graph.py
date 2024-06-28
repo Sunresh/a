@@ -1,11 +1,9 @@
-from venv import logger
 import pandas as pd
 import matplotlib.pyplot as plt
 from constants import *
 from ui_helper import *
+import logging
 
-
-logger = setup_logger(logger=logging.getLogger(__name__))
 
 def one_graph_all_param(file):
     try:
@@ -31,11 +29,11 @@ def one_graph_all_param(file):
         plt.legend()
         # Show the plot
         plt.show()
-        logger.info(f"one_graph_all_param={file} is successfully plotted")
+        logging.info(f"one_graph_all_param={file} is successfully plotted")
 
         
     except Exception:
-        logger.error("one_graph_all_param",exc_info=True)
+        logging.error("one_graph_all_param",exc_info=True)
 
 
 def plot_datoooa(file):
@@ -232,7 +230,7 @@ def two_file_plot_data(two_files, x_column="sn", x_label="B"):
     num_files = len(data)
 
     if num_y_columns == 0:
-        logger.error("No y-columns found.")
+        logging.error("No y-columns found.")
         return
 
     if num_files == 1:

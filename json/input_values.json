@@ -1,6 +1,6 @@
 {
-    "anglr_": 20.0,
-    "steps": 1000.0,
-    "base_h": 1.5,
+    "anglr_": 50.0,
+    "steps": 500.0,
+    "base_h": 2.0,
     "total_h": 4.0
 }

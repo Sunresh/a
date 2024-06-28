@@ -1,20 +1,39 @@
+import logging
 import tkinter as tk
-from tkinter import TOP, BOTH
-from ui_helper import *
-from all_graph import *
-from tools import *
-from spiral import *
-from constants import *
+import customtkinter
+
+from all_graph import one_graph_all_param, plot_datoooa, plot_popodata, th_plot_data, two_file_plot_data
+from constants import INPUT_BTN_LIST, INPUT_VALUES, SPIRAL_CSV_FILE
+from spiral import plot_csv_file, spiral, x_axis_rrotat, xy_rotate, y_axis_rrotat
+from tools import find_json_value, read_json, save_as_json, save_to_csv, update_json
+from ui_helper import create_entry, open_file_dialog
 
 
-logger = setup_logger(logger=logging.getLogger(__name__))
-root = tk.Tk()
-root.title("Menu of Lists")
-root.geometry("800x600")
-row1 = tk.Frame(root)
-row1.grid(row=1,column=1)
-row2 = tk.Frame(root)
-row2.grid(row=1,column=2)
+logging.basicConfig(filename='api_errors.log', level=logging.ERROR, 
+                    format='%(asctime)s %(levelname)s %(message)s')
+
+customtkinter.set_appearance_mode("Light")  # Modes: "System" (standard), "Dark", "Light"
+customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
+
+# Create the main window
+app = customtkinter.CTk()
+app.geometry("800x640")
+app.title("3D Model Generator")
+frame1 = customtkinter.CTkFrame(master=app, width=280, height=280)
+frame1.pack(side="left", padx=10, pady=10, expand=True, fill="both")
+
+# Add a label to Frame 1
+label1 = customtkinter.CTkLabel(master=frame1, text="Actions")
+label1.pack(pady=20)
+
+# Create Frame 2
+frame2 = customtkinter.CTkFrame(master=app, width=280, height=280)
+frame2.pack(side="left", padx=10, pady=10, expand=True, fill="both")
+
+# Add a label to Frame 2
+label2 = customtkinter.CTkLabel(master=frame2, text="Settings")
+label2.pack(pady=20)
+
 
 def show_selected_item(selected_item):
     csv_file = find_json_value(INPUT_VALUES,"selected_file")
@@ -29,7 +48,7 @@ def show_selected_item(selected_item):
         total_h = vvv("total_h")
         spiral_data = x_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        logger.info(f"show_selected_item=={selected_item}")
+        logging.info(f"show_selected_item=={selected_item}")
         plot_csv_file(SPIRAL_CSV_FILE)
 
     
@@ -75,16 +94,16 @@ def show_selected_item(selected_item):
         two_file_plot_data(two_files= t_file)
     
     elif selected_item == "Choose csv file":
-        open_file_dialog(row2)
+        open_file_dialog(frame2)
 
     elif selected_item == "Plot CSV":
         plot_csv_file(SPIRAL_CSV_FILE)
 
     elif selected_item == "Exit":
-        global root
-        root.destroy()
+        global app
+        app.destroy()
     else:
-        logger.info(f"You selected: {selected_item}")
+        logging.info(f"You selected: {selected_item}")
         #label.config(text="You selected: " + selected_item)
 
 
@@ -140,8 +159,19 @@ default_input_list = {
 
 # Create buttons for each item
 for item in button_list_items:
-    button = tk.Button(row1, text=item, font=("Arial", 12), width=20, command=lambda item=item: show_selected_item(item))
+    button = customtkinter.CTkButton(
+        master=frame1,
+        text=item,
+        command=lambda i=item: show_selected_item(i),
+        width=120,
+        height=32,
+        corner_radius=8,
+        hover_color="darkblue"
+    )
     button.pack(pady=5)
+
+    ##button = tk.Button(frame1, text=item, font=("Arial", 12), width=20, command=lambda item=item: show_selected_item(item))
+    ##button.pack(pady=5)
 
 if read_json(INPUT_BTN_LIST) == []:
     save_as_json(default_input_list,INPUT_BTN_LIST)
@@ -150,8 +180,8 @@ input_list_items = read_json(INPUT_BTN_LIST)
 
 for key in input_list_items:
     valu = input_list_items[key]
-    create_labeled_entry(frame=row2, label_text=key, json_key=valu)
+    create_labeled_entry(frame=frame2, label_text=key, json_key=valu)
     
 
 # Run the tkinter main loop
-root.mainloop()
+app.mainloop()

@@ -1,15 +1,12 @@
-from matplotlib.ticker import *
-import numpy as np
-import csv
-import math
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-from matplotlib import pyplot as plt
-from constants import *
-from ui_helper import *
-from tools import *
 
-logger = setup_logger(logger=logging.getLogger(__name__))
+import logging
+import math
+from matplotlib import pyplot as plt
+from matplotlib.ticker import MultipleLocator
+import numpy as np
+from constants import INPUT_VALUES, RADIUS_OF_COIL, RESOLUTION_POINTS
+from tools import c_round, find_json_value, get_csv_max, read_csv_data
+
 
 def plot_csv_file(filename):
     angle_ = find_json_value(INPUT_VALUES,"anglr_")
@@ -49,12 +46,12 @@ def spiral(total_steps,base_height,total_height):
         if iin < base_steps:
             radius = 0
         elif base_steps <= iin < transition_steps:
-            radius = radius_of_coil * ((iin - base_steps) / (transition_steps - base_steps))
+            radius = RADIUS_OF_COIL * ((iin - base_steps) / (transition_steps - base_steps))
         else:
-            radius = radius_of_coil
+            radius = RADIUS_OF_COIL
 
-        x = round(radius * math.cos(nt * 2 * np.pi * iin / total_steps) + radius_of_coil, 4)
-        y = round(radius * math.sin(nt * 2 * math.pi * iin / total_steps) + radius_of_coil, 4)
+        x = round(radius * math.cos(nt * 2 * np.pi * iin / total_steps) + RADIUS_OF_COIL, 4)
+        y = round(radius * math.sin(nt * 2 * math.pi * iin / total_steps) + RADIUS_OF_COIL, 4)
         z = round(iin * total_height / total_steps, 4)
         x_data.append(x)
         y_data.append(y)
@@ -86,8 +83,8 @@ def x_axis_rrotat(angle,total_steps,base_height,total_height):
 
     while iin < total_steps:
         radius,z_axix = radius_calc(iin,base_steps,base_height,slighted_height,total_steps,angle)
-        x = round(radius + radius_of_coil, 4)
-        y = round(radius_of_coil, 4)
+        x = round(radius + RADIUS_OF_COIL, 4)
+        y = round(RADIUS_OF_COIL, 4)
         z = round(z_axix, 4)
         x_data.append(x)
         y_data.append(y)
@@ -107,8 +104,8 @@ def y_axis_rrotat(angle,total_steps,base_height,total_height):
 
     while iin < total_steps:
         radius,z_axix = radius_calc(iin,base_steps,base_height,slighted_height,total_steps,angle)
-        x = round(radius_of_coil, 4)
-        y = round(radius + radius_of_coil, 4)
+        x = round(RADIUS_OF_COIL, 4)
+        y = round(radius + RADIUS_OF_COIL, 4)
         z = round(z_axix, 4)
         x_data.append(x)
         y_data.append(y)
@@ -124,15 +121,15 @@ def xy_rotate(angle,total_steps,base_height,total_height):
         y_data = []
         z_data = []
         iin = 0
-        radius_of_coil=2.5 
+        RADIUS_OF_COIL=2.5 
         slighted_height = total_height - base_height
         z_axix = 0
         base_steps = base_height * (total_steps / total_height)
 
         while iin < total_steps:
             radius,z_axix = radius_calc(iin,base_steps,base_height,slighted_height,total_steps,angle)
-            x = round(radius + radius_of_coil, 4)
-            y = round(radius + radius_of_coil, 4)
+            x = round(radius + RADIUS_OF_COIL, 4)
+            y = round(radius + RADIUS_OF_COIL, 4)
             z = round(z_axix, 4)
             x_data.append(x)
             y_data.append(y)
@@ -141,6 +138,7 @@ def xy_rotate(angle,total_steps,base_height,total_height):
 
         return list(zip(x_data, y_data, z_data))
     
-    except:
-        logger.error(f"xy rotarw")
+    except Exception as e:
+        logging.error("xy rotarw")
+        logging.error(str(e))
 

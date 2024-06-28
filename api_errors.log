@@ -1,0 +1,139 @@
+2024-06-28 10:42:54,386 INFO find_json_value: reso into json/input_values.json is None
+2024-06-28 10:42:54,395 INFO find_json_value: anglr_ into json/input_values.json is 20.0
+2024-06-28 10:42:54,399 INFO find_json_value: steps into json/input_values.json is 1000.0
+2024-06-28 10:42:54,404 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-06-28 10:42:54,408 INFO find_json_value: base_h into json/input_values.json is 1.5
+2024-06-28 10:42:54,412 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-06-28 10:43:18,353 INFO find_json_value: selected_file into json/input_values.json is None
+2024-06-28 10:43:24,203 INFO find_json_value: reso into json/input_values.json is None
+2024-06-28 10:43:24,210 INFO find_json_value: anglr_ into json/input_values.json is 20.0
+2024-06-28 10:43:24,214 INFO find_json_value: steps into json/input_values.json is 1000.0
+2024-06-28 10:43:24,220 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-06-28 10:43:24,226 INFO find_json_value: base_h into json/input_values.json is 1.5
+2024-06-28 10:43:24,230 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-06-28 10:43:33,713 INFO find_json_value: selected_file into json/input_values.json is None
+2024-06-28 10:43:33,715 INFO {'anglr_': 20.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 10:43:33,717 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
+2024-06-28 10:43:33,726 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 10:43:33,727 INFO Key=anglr_,And Value=80.0 is updated into json/input_values.json
+2024-06-28 10:43:33,743 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 10:43:33,743 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-06-28 10:43:33,748 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 10:43:33,748 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-06-28 10:43:33,806 INFO find_json_value: anglr_ into json/input_values.json is 80.0
+2024-06-28 10:43:43,031 INFO find_json_value: reso into json/input_values.json is None
+2024-06-28 10:43:43,036 INFO find_json_value: anglr_ into json/input_values.json is 80.0
+2024-06-28 10:43:43,040 INFO find_json_value: steps into json/input_values.json is 1000.0
+2024-06-28 10:43:43,044 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-06-28 10:43:43,049 INFO find_json_value: base_h into json/input_values.json is 1.5
+2024-06-28 10:43:43,053 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-06-28 10:44:08,189 INFO find_json_value: reso into json/input_values.json is None
+2024-06-28 10:44:08,196 INFO find_json_value: anglr_ into json/input_values.json is 80.0
+2024-06-28 10:44:08,201 INFO find_json_value: steps into json/input_values.json is 1000.0
+2024-06-28 10:44:08,205 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-06-28 10:44:08,211 INFO find_json_value: base_h into json/input_values.json is 1.5
+2024-06-28 10:44:08,216 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-06-28 10:48:32,932 INFO find_json_value: reso into json/input_values.json is None
+2024-06-28 10:48:32,937 INFO find_json_value: anglr_ into json/input_values.json is 80.0
+2024-06-28 10:48:32,940 INFO find_json_value: steps into json/input_values.json is 1000.0
+2024-06-28 10:48:32,946 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-06-28 10:48:32,950 INFO find_json_value: base_h into json/input_values.json is 1.5
+2024-06-28 10:48:32,953 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-06-28 10:57:34,691 INFO find_json_value: reso into json/input_values.json is None
+2024-06-28 10:57:34,696 INFO find_json_value: anglr_ into json/input_values.json is 80.0
+2024-06-28 10:57:34,699 INFO find_json_value: steps into json/input_values.json is 1000.0
+2024-06-28 10:57:34,703 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-06-28 10:57:34,707 INFO find_json_value: base_h into json/input_values.json is 1.5
+2024-06-28 10:57:34,711 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-06-28 10:57:39,578 INFO find_json_value: selected_file into json/input_values.json is None
+2024-06-28 10:57:39,579 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 10:57:39,580 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
+2024-06-28 10:57:39,584 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 10:57:39,584 INFO Key=anglr_,And Value=80.0 is updated into json/input_values.json
+2024-06-28 10:57:39,589 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 10:57:39,589 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-06-28 10:57:39,593 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 10:57:39,594 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-06-28 10:57:39,629 INFO find_json_value: anglr_ into json/input_values.json is 80.0
+2024-06-28 11:02:25,643 INFO find_json_value: reso into json/input_values.json is None
+2024-06-28 11:02:25,649 INFO find_json_value: anglr_ into json/input_values.json is 80.0
+2024-06-28 11:02:25,654 INFO find_json_value: steps into json/input_values.json is 1000.0
+2024-06-28 11:02:25,658 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-06-28 11:02:25,662 INFO find_json_value: base_h into json/input_values.json is 1.5
+2024-06-28 11:02:25,667 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-06-28 11:02:28,210 INFO find_json_value: selected_file into json/input_values.json is None
+2024-06-28 11:02:28,212 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:02:28,212 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
+2024-06-28 11:02:28,217 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:02:28,217 INFO Key=anglr_,And Value=80.0 is updated into json/input_values.json
+2024-06-28 11:02:28,222 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:02:28,222 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-06-28 11:02:28,227 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:02:28,227 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-06-28 11:02:28,279 INFO find_json_value: anglr_ into json/input_values.json is 80.0
+2024-06-28 11:02:49,098 INFO find_json_value: selected_file into json/input_values.json is None
+2024-06-28 11:02:49,101 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:02:49,101 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
+2024-06-28 11:02:49,106 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:02:49,106 INFO Key=anglr_,And Value=0.0 is updated into json/input_values.json
+2024-06-28 11:02:49,122 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:02:49,122 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-06-28 11:02:49,126 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:02:49,126 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-06-28 11:02:49,164 INFO find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-28 11:03:13,658 INFO find_json_value: selected_file into json/input_values.json is None
+2024-06-28 11:03:13,660 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:03:13,660 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
+2024-06-28 11:03:13,665 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:03:13,665 INFO Key=anglr_,And Value=90.0 is updated into json/input_values.json
+2024-06-28 11:03:13,678 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:03:13,678 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-06-28 11:03:13,682 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:03:13,682 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-06-28 11:03:13,730 INFO find_json_value: anglr_ into json/input_values.json is 90.0
+2024-06-28 11:07:04,093 INFO find_json_value: reso into json/input_values.json is None
+2024-06-28 11:07:04,097 INFO find_json_value: anglr_ into json/input_values.json is 90.0
+2024-06-28 11:07:04,102 INFO find_json_value: steps into json/input_values.json is 1000.0
+2024-06-28 11:07:04,106 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-06-28 11:07:04,110 INFO find_json_value: base_h into json/input_values.json is 1.5
+2024-06-28 11:07:04,115 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-06-28 11:07:09,730 INFO find_json_value: selected_file into json/input_values.json is None
+2024-06-28 11:07:09,732 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:07:09,732 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
+2024-06-28 11:07:09,736 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:07:09,737 INFO Key=anglr_,And Value=24.0 is updated into json/input_values.json
+2024-06-28 11:07:09,752 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:07:09,752 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-06-28 11:07:09,754 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:07:09,754 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-06-28 11:07:09,785 INFO find_json_value: anglr_ into json/input_values.json is 24.0
+2024-06-28 11:08:54,603 INFO find_json_value: selected_file into json/input_values.json is None
+2024-06-28 11:08:54,606 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:08:54,606 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
+2024-06-28 11:08:54,610 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:08:54,610 INFO Key=anglr_,And Value=24.0 is updated into json/input_values.json
+2024-06-28 11:08:54,614 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:08:54,614 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-06-28 11:08:54,629 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:08:54,629 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-06-28 11:08:54,659 INFO find_json_value: anglr_ into json/input_values.json is 24.0
+2024-06-28 11:09:11,226 INFO find_json_value: selected_file into json/input_values.json is None
+2024-06-28 11:09:11,227 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:09:11,229 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
+2024-06-28 11:09:11,233 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:09:11,233 INFO Key=anglr_,And Value=0.0 is updated into json/input_values.json
+2024-06-28 11:09:11,248 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:09:11,248 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-06-28 11:09:11,252 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:09:11,252 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-06-28 11:09:11,279 INFO find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-28 11:09:27,906 INFO find_json_value: selected_file into json/input_values.json is None
+2024-06-28 11:09:27,907 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:09:27,908 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
+2024-06-28 11:09:27,912 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:09:27,913 INFO Key=anglr_,And Value=90.0 is updated into json/input_values.json
+2024-06-28 11:09:27,926 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:09:27,926 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-06-28 11:09:27,929 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-28 11:09:27,930 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-06-28 11:09:27,980 INFO find_json_value: anglr_ into json/input_values.json is 90.0

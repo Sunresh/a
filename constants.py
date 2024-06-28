@@ -1,4 +1,4 @@
-radius_of_coil=1.5
+RADIUS_OF_COIL=1.5
 SPIRAL_CSV_FILE = 'spiral_data.csv'
 RESOLUTION_POINTS = 0.5
 INPUT_BTN_LIST = "json/input_btn_list.json"
