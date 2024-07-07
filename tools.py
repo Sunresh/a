@@ -8,8 +8,6 @@ import json
 
 import numpy as np
 
-from constants import *
-
 def isFileExists(file):
     if not os.path.exists(file):
         # Print a message indicating the file doesn't exist and create the required directory

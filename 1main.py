@@ -2,7 +2,7 @@ import logging
 import tkinter as tk
 import customtkinter
 
-from all_graph import one_graph_all_param, plot_datoooa, plot_popodata, th_plot_data, two_file_plot_data
+from all_graph import one_graph_all_param, non_truncate, truncate_plot, two_file_plot_data
 from constants import INPUT_BTN_LIST, INPUT_VALUES, SPIRAL_CSV_FILE
 from spiral import plot_csv_file, spiral, x_axis_rrotat, xy_rotate, y_axis_rrotat
 from tools import find_json_value, read_json, save_as_json, save_to_csv, update_json
@@ -41,6 +41,19 @@ def show_selected_item(selected_item):
         csv_file = find_json_value(INPUT_VALUES,"selected_file")
         one_graph_all_param(file=csv_file)
 
+    elif selected_item == "Truncate Plot":
+        truncate_plot(file=csv_file,truncate_frame=90)
+
+    elif selected_item == "Non-Truncate Plot":
+        non_truncate(file=csv_file)
+
+    elif selected_item == "Two files plot":
+        t_file = [csv_file,csv_file]
+        two_file_plot_data(two_files= t_file)
+
+    elif selected_item == "Choose csv file":
+        open_file_dialog(frame2)
+
     elif selected_item == "Generate_X_Rotate":
         total_steps = vvv("steps")
         angle_ = vvv("anglr_")
@@ -48,7 +61,6 @@ def show_selected_item(selected_item):
         total_h = vvv("total_h")
         spiral_data = x_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        logging.info(f"show_selected_item=={selected_item}")
         plot_csv_file(SPIRAL_CSV_FILE)
 
     
@@ -78,24 +90,7 @@ def show_selected_item(selected_item):
         spiral_data = spiral(total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         plot_csv_file(SPIRAL_CSV_FILE)
-
-
-    elif selected_item == "Plot2":
-        th_plot_data(file=csv_file)
-
-    elif selected_item == "Plot3":
-        plot_datoooa(file=csv_file)
-
-    elif selected_item == "Pillar 2D":
-        plot_popodata(file=csv_file)
     
-    elif selected_item == "Spiral Graph 3D":
-        t_file = [csv_file,csv_file]
-        two_file_plot_data(two_files= t_file)
-    
-    elif selected_item == "Choose csv file":
-        open_file_dialog(frame2)
-
     elif selected_item == "Plot CSV":
         plot_csv_file(SPIRAL_CSV_FILE)
 
@@ -134,15 +129,14 @@ def vvv(key):
     return int_value
 
 button_list_items = [
+    "Choose csv file",
     "All", 
+    "Truncate Plot", 
+    "Non-Truncate Plot", 
+    "Two files plot", 
     "Generate_X_Rotate", 
     "Generate_Y_Rotate", 
     "Generate_XT_Rotate", 
-    "Pillar 2D",
-    "Choose csv file",
-    "Plot2", 
-    "Plot3", 
-    "Spiral Graph 3D", 
     "Generate_3D_CSV", 
     "Plot CSV", 
     "Exit"
