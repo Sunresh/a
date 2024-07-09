@@ -42,13 +42,13 @@ def steps_segment(relosution,base_height,total_height):
     transition_steps = segment2 / relosution
     return total_steps, base_steps,transition_steps
 
-def spiral(total_steps,base_height,total_height):
+def spiral(angle,resolution,base_height,total_height):
     x_data = []
     y_data = []
     z_data = []
     nt = 3
     iin = 0
-    total_steps, base_steps, transition_steps = steps_segment(total_steps,base_height,total_height)
+    total_steps, base_steps, transition_steps = steps_segment(resolution,base_height,total_height)
     while iin < total_steps:
         if iin < base_steps:
             radius = 0
@@ -63,16 +63,16 @@ def spiral(total_steps,base_height,total_height):
         x_data.append(x)
         y_data.append(y)
         z_data.append(z)
-        iin += RESOLUTION_POINTS
+        iin += resolution
 
     return list(zip(x_data, y_data, z_data))
 
 def radius_calc(index,resolution,base_steps,total_steps,angle):
-    bendin_l = bendin_length(steps_length=resolution,base_steps=base_steps,total_steps=total_steps)
+    #bendin_l = bendin_length(steps_length=resolution,base_steps=base_steps,total_steps=total_steps)
     bendin_h = bendin_z(steps_length=resolution,base_steps=base_steps,total_steps=total_steps,angle=angle)
     bendin_r = bendin_x(steps_length=resolution,base_steps=base_steps,total_steps=total_steps,angle=angle)
     base_height = base_length(steps_length=resolution,base_steps=base_steps)
-    total_h = total_steps * resolution
+    #total_h = total_steps * resolution
     if index <= base_steps:
         radius = 0
         z_axix = index * resolution
@@ -91,7 +91,6 @@ def x_axis_rrotat(angle,resolution,base_height,total_height):
     index = 0
     z_axix = 0
     total_steps, base_steps, transition_steps = steps_segment(resolution,base_height,total_height)
-
     while index < total_steps:
         radius,z_axix = radius_calc(index,resolution,base_steps,total_steps,angle)
         x = round(radius + RADIUS_OF_COIL, 4)

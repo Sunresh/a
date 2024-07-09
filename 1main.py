@@ -94,7 +94,7 @@ def load_va():
     angle_ = updating_value("anglr_")
     base_h = updating_value("base_h")
     resolution = updating_value("reso")
-    coil_radius = updating_value("coil_radius")
+    #coil_radius = updating_value("coil_radius")
     return resolution,total_h,base_h, angle_
 
 my_list ={}
