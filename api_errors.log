@@ -785,3 +785,80 @@
 2024-07-09 17:08:04,008 INFO {'total_h': 4.5, 'anglr_': 45.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
 2024-07-09 17:08:04,008 INFO Key=coil_radius,And Value=2.5 is updated into json/input_values.json
 2024-07-09 17:08:04,082 INFO find_json_value: anglr_ into json/input_values.json is 45.0
+2024-07-09 17:12:36,522 INFO find_json_value: reso into json/input_values.json is 0.001
+2024-07-09 17:12:36,528 INFO find_json_value: anglr_ into json/input_values.json is 45.0
+2024-07-09 17:12:36,531 INFO find_json_value: coil_radius into json/input_values.json is 2.5
+2024-07-09 17:12:36,536 INFO find_json_value: base_h into json/input_values.json is 1.5
+2024-07-09 17:12:36,541 INFO find_json_value: total_h into json/input_values.json is 4.5
+2024-07-09 17:12:55,995 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 17:12:55,998 INFO {'total_h': 4.5, 'anglr_': 45.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:12:55,998 INFO Key=total_h,And Value=4.5 is updated into json/input_values.json
+2024-07-09 17:12:56,006 INFO {'total_h': 4.5, 'anglr_': 45.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:12:56,006 INFO Key=anglr_,And Value=45.0 is updated into json/input_values.json
+2024-07-09 17:12:56,011 INFO {'total_h': 4.5, 'anglr_': 45.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:12:56,011 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-07-09 17:12:56,015 INFO {'total_h': 4.5, 'anglr_': 45.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:12:56,015 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 17:12:56,018 INFO {'total_h': 4.5, 'anglr_': 45.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:12:56,019 INFO Key=coil_radius,And Value=2.5 is updated into json/input_values.json
+2024-07-09 17:12:56,088 INFO find_json_value: anglr_ into json/input_values.json is 45.0
+2024-07-09 17:13:22,379 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 17:13:22,380 INFO {'total_h': 4.5, 'anglr_': 45.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:22,380 INFO Key=total_h,And Value=4.5 is updated into json/input_values.json
+2024-07-09 17:13:22,383 INFO {'total_h': 4.5, 'anglr_': 0.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:22,383 INFO Key=anglr_,And Value=0.0 is updated into json/input_values.json
+2024-07-09 17:13:22,398 INFO {'total_h': 4.5, 'anglr_': 0.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:22,398 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-07-09 17:13:22,401 INFO {'total_h': 4.5, 'anglr_': 0.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:22,402 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 17:13:22,406 INFO {'total_h': 4.5, 'anglr_': 0.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:22,406 INFO Key=coil_radius,And Value=2.5 is updated into json/input_values.json
+2024-07-09 17:13:22,483 INFO find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-09 17:13:30,053 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 17:13:30,053 INFO {'total_h': 4.5, 'anglr_': 0.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:30,054 INFO Key=total_h,And Value=4.5 is updated into json/input_values.json
+2024-07-09 17:13:30,055 INFO {'total_h': 4.5, 'anglr_': 20.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:30,055 INFO Key=anglr_,And Value=20.0 is updated into json/input_values.json
+2024-07-09 17:13:30,061 INFO {'total_h': 4.5, 'anglr_': 20.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:30,061 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-07-09 17:13:30,063 INFO {'total_h': 4.5, 'anglr_': 20.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:30,064 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 17:13:30,066 INFO {'total_h': 4.5, 'anglr_': 20.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:30,066 INFO Key=coil_radius,And Value=2.5 is updated into json/input_values.json
+2024-07-09 17:13:30,139 INFO find_json_value: anglr_ into json/input_values.json is 20.0
+2024-07-09 17:13:38,630 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 17:13:38,631 INFO {'total_h': 4.5, 'anglr_': 20.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:38,631 INFO Key=total_h,And Value=4.5 is updated into json/input_values.json
+2024-07-09 17:13:38,633 INFO {'total_h': 4.5, 'anglr_': 40.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:38,633 INFO Key=anglr_,And Value=40.0 is updated into json/input_values.json
+2024-07-09 17:13:38,638 INFO {'total_h': 4.5, 'anglr_': 40.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:38,638 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-07-09 17:13:38,640 INFO {'total_h': 4.5, 'anglr_': 40.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:38,640 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 17:13:38,642 INFO {'total_h': 4.5, 'anglr_': 40.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:38,643 INFO Key=coil_radius,And Value=2.5 is updated into json/input_values.json
+2024-07-09 17:13:38,727 INFO find_json_value: anglr_ into json/input_values.json is 40.0
+2024-07-09 17:13:46,096 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 17:13:46,096 INFO {'total_h': 4.5, 'anglr_': 40.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:46,096 INFO Key=total_h,And Value=4.5 is updated into json/input_values.json
+2024-07-09 17:13:46,099 INFO {'total_h': 4.5, 'anglr_': 60.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:46,099 INFO Key=anglr_,And Value=60.0 is updated into json/input_values.json
+2024-07-09 17:13:46,106 INFO {'total_h': 4.5, 'anglr_': 60.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:46,106 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-07-09 17:13:46,107 INFO {'total_h': 4.5, 'anglr_': 60.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:46,107 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 17:13:46,108 INFO {'total_h': 4.5, 'anglr_': 60.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:46,110 INFO Key=coil_radius,And Value=2.5 is updated into json/input_values.json
+2024-07-09 17:13:46,187 INFO find_json_value: anglr_ into json/input_values.json is 60.0
+2024-07-09 17:13:54,489 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 17:13:54,490 INFO {'total_h': 4.5, 'anglr_': 60.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:54,490 INFO Key=total_h,And Value=4.5 is updated into json/input_values.json
+2024-07-09 17:13:54,492 INFO {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:54,492 INFO Key=anglr_,And Value=80.0 is updated into json/input_values.json
+2024-07-09 17:13:54,497 INFO {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:54,498 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-07-09 17:13:54,500 INFO {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:54,500 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 17:13:54,501 INFO {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:13:54,501 INFO Key=coil_radius,And Value=2.5 is updated into json/input_values.json
+2024-07-09 17:13:54,578 INFO find_json_value: anglr_ into json/input_values.json is 80.0
