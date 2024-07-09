@@ -47,23 +47,23 @@ def spiral(angle,resolution,base_height,total_height):
     y_data = []
     z_data = []
     nt = 3
-    iin = 0
+    index = 0
     total_steps, base_steps, transition_steps = steps_segment(resolution,base_height,total_height)
-    while iin < total_steps:
-        if iin < base_steps:
+    while index < total_steps:
+        if index < base_steps:
             radius = 0
-        elif base_steps <= iin < transition_steps:
-            radius = RADIUS_OF_COIL * ((iin - base_steps) / (transition_steps - base_steps))
+        elif base_steps <= index < transition_steps:
+            radius = RADIUS_OF_COIL * ((index - base_steps) / (transition_steps - base_steps))
         else:
             radius = RADIUS_OF_COIL
 
-        x = round(radius * math.cos(nt * 2 * np.pi * iin / total_steps) + RADIUS_OF_COIL, 4)
-        y = round(radius * math.sin(nt * 2 * math.pi * iin / total_steps) + RADIUS_OF_COIL, 4)
-        z = round(iin * total_height / total_steps, 4)
+        x = round(radius * math.cos(nt * 2 * np.pi * index / total_steps) + RADIUS_OF_COIL, 4)
+        y = round(radius * math.sin(nt * 2 * math.pi * index / total_steps) + RADIUS_OF_COIL, 4)
+        z = round(index * resolution, 4)
         x_data.append(x)
         y_data.append(y)
         z_data.append(z)
-        iin += resolution
+        index += 1
 
     return list(zip(x_data, y_data, z_data))
 

@@ -95,3 +95,67 @@
 2024-07-09 17:13:54,501 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
 2024-07-09 17:13:54,501 - tools - INFO - Key=coil_radius,And Value=2.5 is updated into json/input_values.json
 2024-07-09 17:13:54,578 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 80.0
+2024-07-09 17:19:41,315 - tools - INFO - find_json_value: reso into json/input_values.json is 0.001
+2024-07-09 17:19:41,321 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 80.0
+2024-07-09 17:19:41,325 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2.5
+2024-07-09 17:19:41,329 - tools - INFO - find_json_value: base_h into json/input_values.json is 1.5
+2024-07-09 17:19:41,333 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.5
+2024-07-09 17:19:50,854 - tools - INFO - find_json_value: reso into json/input_values.json is 0.001
+2024-07-09 17:19:50,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 80.0
+2024-07-09 17:19:50,862 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2.5
+2024-07-09 17:19:50,866 - tools - INFO - find_json_value: base_h into json/input_values.json is 1.5
+2024-07-09 17:19:50,870 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.5
+2024-07-09 17:19:56,144 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-07-09 17:19:56,144 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-07-09 17:19:58,063 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-07-09 17:20:55,384 - tools - INFO - find_json_value: reso into json/input_values.json is 0.001
+2024-07-09 17:20:55,390 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 80.0
+2024-07-09 17:20:55,394 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2.5
+2024-07-09 17:20:55,399 - tools - INFO - find_json_value: base_h into json/input_values.json is 1.5
+2024-07-09 17:20:55,402 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.5
+2024-07-09 17:20:58,077 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-07-09 17:21:04,733 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142041.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:21:04,733 - tools - INFO - Key=selected_file,And Value=C:/Users/nares/Desktop/allout/240704/240704_142041.csv is updated into json/input_values.json
+2024-07-09 17:21:06,322 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142041.csv
+2024-07-09 17:21:06,323 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142041.csv
+2024-07-09 17:22:01,278 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142041.csv
+2024-07-09 17:22:05,491 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142041.csv
+2024-07-09 17:22:09,575 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142041.csv
+2024-07-09 17:22:17,869 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142041.csv
+2024-07-09 17:22:17,871 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142041.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:22:17,871 - tools - INFO - Key=total_h,And Value=4.5 is updated into json/input_values.json
+2024-07-09 17:22:17,875 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142041.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:22:17,880 - tools - INFO - Key=anglr_,And Value=80.0 is updated into json/input_values.json
+2024-07-09 17:22:17,884 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142041.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:22:17,884 - tools - INFO - Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-07-09 17:22:17,887 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142041.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:22:17,887 - tools - INFO - Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 17:23:16,317 - tools - INFO - find_json_value: reso into json/input_values.json is 0.001
+2024-07-09 17:23:16,322 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 80.0
+2024-07-09 17:23:16,328 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2.5
+2024-07-09 17:23:16,333 - tools - INFO - find_json_value: base_h into json/input_values.json is 1.5
+2024-07-09 17:23:16,337 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.5
+2024-07-09 17:23:19,103 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142041.csv
+2024-07-09 17:23:19,105 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142041.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:23:19,105 - tools - INFO - Key=total_h,And Value=4.5 is updated into json/input_values.json
+2024-07-09 17:23:19,109 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142041.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:23:19,110 - tools - INFO - Key=anglr_,And Value=80.0 is updated into json/input_values.json
+2024-07-09 17:23:19,113 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142041.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:23:19,115 - tools - INFO - Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-07-09 17:23:19,118 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142041.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:23:19,118 - tools - INFO - Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 17:26:12,976 - tools - INFO - find_json_value: reso into json/input_values.json is 0.001
+2024-07-09 17:26:12,980 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 80.0
+2024-07-09 17:26:12,984 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2.5
+2024-07-09 17:26:12,989 - tools - INFO - find_json_value: base_h into json/input_values.json is 1.5
+2024-07-09 17:26:12,993 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.5
+2024-07-09 17:26:14,596 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142041.csv
+2024-07-09 17:26:14,597 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142041.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:26:14,598 - tools - INFO - Key=total_h,And Value=4.5 is updated into json/input_values.json
+2024-07-09 17:26:14,602 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142041.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:26:14,602 - tools - INFO - Key=anglr_,And Value=80.0 is updated into json/input_values.json
+2024-07-09 17:26:14,606 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142041.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:26:14,607 - tools - INFO - Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-07-09 17:26:14,611 - tools - INFO - {'total_h': 4.5, 'anglr_': 80.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142041.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:26:14,611 - tools - INFO - Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 17:26:14,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 80.0

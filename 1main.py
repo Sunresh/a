@@ -75,7 +75,7 @@ def show_selected_item(selected_item):
 
     elif selected_item == "Generate_3D_CSV":
         resolution,total_h,base_h, angle_ = load_va()
-        spiral_data = spiral(resolution=resolution,base_height=base_h,total_height=total_h)
+        spiral_data = spiral(angle=angle_,resolution=resolution,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         plot_csv_file(SPIRAL_CSV_FILE)
     
