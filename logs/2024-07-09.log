@@ -1,0 +1,20 @@
+2024-07-09 17:07:24,381 - tools - INFO - [] is saved in json/input_btn_list.json as JSON successfully.
+2024-07-09 17:07:24,383 - tools - INFO - {'Resolution': 'reso', 'Angle': 'anglr_', 'Coil_radius': 'coil_radius', 'Base_height': 'base_h', 'Total_height': 'total_h'} is saved in json/input_btn_list.json as JSON successfully.
+2024-07-09 17:07:24,390 - tools - INFO - [] is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:07:24,390 - tools - ERROR - Error: JSON data is not a dictionary.
+2024-07-09 17:07:24,399 - tools - ERROR - Error: JSON data is not a dictionary.
+2024-07-09 17:07:24,403 - tools - ERROR - Error: JSON data is not a dictionary.
+2024-07-09 17:07:24,407 - tools - ERROR - Error: JSON data is not a dictionary.
+2024-07-09 17:07:24,414 - tools - ERROR - Error: JSON data is not a dictionary.
+2024-07-09 17:08:03,962 - tools - ERROR - Error: JSON data is not a dictionary.
+2024-07-09 17:08:03,964 - tools - INFO - {'total_h': 4.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:08:03,964 - tools - INFO - Key=total_h,And Value=4.5 is updated into json/input_values.json
+2024-07-09 17:08:03,982 - tools - INFO - {'total_h': 4.5, 'anglr_': 45.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:08:03,983 - tools - INFO - Key=anglr_,And Value=45.0 is updated into json/input_values.json
+2024-07-09 17:08:03,997 - tools - INFO - {'total_h': 4.5, 'anglr_': 45.0, 'base_h': 1.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:08:03,997 - tools - INFO - Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-07-09 17:08:04,004 - tools - INFO - {'total_h': 4.5, 'anglr_': 45.0, 'base_h': 1.5, 'reso': 0.001} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:08:04,004 - tools - INFO - Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 17:08:04,008 - tools - INFO - {'total_h': 4.5, 'anglr_': 45.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:08:04,008 - tools - INFO - Key=coil_radius,And Value=2.5 is updated into json/input_values.json
+2024-07-09 17:08:04,082 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 45.0

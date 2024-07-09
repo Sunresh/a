@@ -129,15 +129,22 @@ def save_to_csv(data, filename):
     except:
         logger.error(f"savi")
 
-
 def read_csv_data(filename):
     isFileExists(filename)
     with open(filename, 'r') as csvfile:
         reader = csv.reader(csvfile)
-        next(reader)  # Skip the header row
+        header = next(reader, None)  # Skip the header row
         data = [row for row in reader]
+        
+    if not data:
+        raise ValueError("No data found in the CSV file.")
+    
+    if len(data[0]) != 3:
+        raise ValueError("Data rows do not contain exactly three columns.")
+    
     x_data, y_data, z_data = zip(*data)
     return np.asarray(x_data, dtype=float), np.asarray(y_data, dtype=float), np.asarray(z_data, dtype=float)
+
 
 def get_csv_max(csv_file_path):
 # Initialize variables to store maximum values

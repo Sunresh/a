@@ -1,573 +1,787 @@
-2024-06-28 10:42:54,386 INFO find_json_value: reso into json/input_values.json is None
-2024-06-28 10:42:54,395 INFO find_json_value: anglr_ into json/input_values.json is 20.0
-2024-06-28 10:42:54,399 INFO find_json_value: steps into json/input_values.json is 1000.0
-2024-06-28 10:42:54,404 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-06-28 10:42:54,408 INFO find_json_value: base_h into json/input_values.json is 1.5
-2024-06-28 10:42:54,412 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-06-28 10:43:18,353 INFO find_json_value: selected_file into json/input_values.json is None
-2024-06-28 10:43:24,203 INFO find_json_value: reso into json/input_values.json is None
-2024-06-28 10:43:24,210 INFO find_json_value: anglr_ into json/input_values.json is 20.0
-2024-06-28 10:43:24,214 INFO find_json_value: steps into json/input_values.json is 1000.0
-2024-06-28 10:43:24,220 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-06-28 10:43:24,226 INFO find_json_value: base_h into json/input_values.json is 1.5
-2024-06-28 10:43:24,230 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-06-28 10:43:33,713 INFO find_json_value: selected_file into json/input_values.json is None
-2024-06-28 10:43:33,715 INFO {'anglr_': 20.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 10:43:33,717 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
-2024-06-28 10:43:33,726 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 10:43:33,727 INFO Key=anglr_,And Value=80.0 is updated into json/input_values.json
-2024-06-28 10:43:33,743 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 10:43:33,743 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
-2024-06-28 10:43:33,748 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 10:43:33,748 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
-2024-06-28 10:43:33,806 INFO find_json_value: anglr_ into json/input_values.json is 80.0
-2024-06-28 10:43:43,031 INFO find_json_value: reso into json/input_values.json is None
-2024-06-28 10:43:43,036 INFO find_json_value: anglr_ into json/input_values.json is 80.0
-2024-06-28 10:43:43,040 INFO find_json_value: steps into json/input_values.json is 1000.0
-2024-06-28 10:43:43,044 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-06-28 10:43:43,049 INFO find_json_value: base_h into json/input_values.json is 1.5
-2024-06-28 10:43:43,053 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-06-28 10:44:08,189 INFO find_json_value: reso into json/input_values.json is None
-2024-06-28 10:44:08,196 INFO find_json_value: anglr_ into json/input_values.json is 80.0
-2024-06-28 10:44:08,201 INFO find_json_value: steps into json/input_values.json is 1000.0
-2024-06-28 10:44:08,205 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-06-28 10:44:08,211 INFO find_json_value: base_h into json/input_values.json is 1.5
-2024-06-28 10:44:08,216 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-06-28 10:48:32,932 INFO find_json_value: reso into json/input_values.json is None
-2024-06-28 10:48:32,937 INFO find_json_value: anglr_ into json/input_values.json is 80.0
-2024-06-28 10:48:32,940 INFO find_json_value: steps into json/input_values.json is 1000.0
-2024-06-28 10:48:32,946 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-06-28 10:48:32,950 INFO find_json_value: base_h into json/input_values.json is 1.5
-2024-06-28 10:48:32,953 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-06-28 10:57:34,691 INFO find_json_value: reso into json/input_values.json is None
-2024-06-28 10:57:34,696 INFO find_json_value: anglr_ into json/input_values.json is 80.0
-2024-06-28 10:57:34,699 INFO find_json_value: steps into json/input_values.json is 1000.0
-2024-06-28 10:57:34,703 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-06-28 10:57:34,707 INFO find_json_value: base_h into json/input_values.json is 1.5
-2024-06-28 10:57:34,711 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-06-28 10:57:39,578 INFO find_json_value: selected_file into json/input_values.json is None
-2024-06-28 10:57:39,579 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 10:57:39,580 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
-2024-06-28 10:57:39,584 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 10:57:39,584 INFO Key=anglr_,And Value=80.0 is updated into json/input_values.json
-2024-06-28 10:57:39,589 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 10:57:39,589 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
-2024-06-28 10:57:39,593 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 10:57:39,594 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
-2024-06-28 10:57:39,629 INFO find_json_value: anglr_ into json/input_values.json is 80.0
-2024-06-28 11:02:25,643 INFO find_json_value: reso into json/input_values.json is None
-2024-06-28 11:02:25,649 INFO find_json_value: anglr_ into json/input_values.json is 80.0
-2024-06-28 11:02:25,654 INFO find_json_value: steps into json/input_values.json is 1000.0
-2024-06-28 11:02:25,658 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-06-28 11:02:25,662 INFO find_json_value: base_h into json/input_values.json is 1.5
-2024-06-28 11:02:25,667 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-06-28 11:02:28,210 INFO find_json_value: selected_file into json/input_values.json is None
-2024-06-28 11:02:28,212 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:02:28,212 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
-2024-06-28 11:02:28,217 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:02:28,217 INFO Key=anglr_,And Value=80.0 is updated into json/input_values.json
-2024-06-28 11:02:28,222 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:02:28,222 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
-2024-06-28 11:02:28,227 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:02:28,227 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
-2024-06-28 11:02:28,279 INFO find_json_value: anglr_ into json/input_values.json is 80.0
-2024-06-28 11:02:49,098 INFO find_json_value: selected_file into json/input_values.json is None
-2024-06-28 11:02:49,101 INFO {'anglr_': 80.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:02:49,101 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
-2024-06-28 11:02:49,106 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:02:49,106 INFO Key=anglr_,And Value=0.0 is updated into json/input_values.json
-2024-06-28 11:02:49,122 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:02:49,122 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
-2024-06-28 11:02:49,126 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:02:49,126 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
-2024-06-28 11:02:49,164 INFO find_json_value: anglr_ into json/input_values.json is 0.0
-2024-06-28 11:03:13,658 INFO find_json_value: selected_file into json/input_values.json is None
-2024-06-28 11:03:13,660 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:03:13,660 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
-2024-06-28 11:03:13,665 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:03:13,665 INFO Key=anglr_,And Value=90.0 is updated into json/input_values.json
-2024-06-28 11:03:13,678 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:03:13,678 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
-2024-06-28 11:03:13,682 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:03:13,682 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
-2024-06-28 11:03:13,730 INFO find_json_value: anglr_ into json/input_values.json is 90.0
-2024-06-28 11:07:04,093 INFO find_json_value: reso into json/input_values.json is None
-2024-06-28 11:07:04,097 INFO find_json_value: anglr_ into json/input_values.json is 90.0
-2024-06-28 11:07:04,102 INFO find_json_value: steps into json/input_values.json is 1000.0
-2024-06-28 11:07:04,106 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-06-28 11:07:04,110 INFO find_json_value: base_h into json/input_values.json is 1.5
-2024-06-28 11:07:04,115 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-06-28 11:07:09,730 INFO find_json_value: selected_file into json/input_values.json is None
-2024-06-28 11:07:09,732 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:07:09,732 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
-2024-06-28 11:07:09,736 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:07:09,737 INFO Key=anglr_,And Value=24.0 is updated into json/input_values.json
-2024-06-28 11:07:09,752 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:07:09,752 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
-2024-06-28 11:07:09,754 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:07:09,754 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
-2024-06-28 11:07:09,785 INFO find_json_value: anglr_ into json/input_values.json is 24.0
-2024-06-28 11:08:54,603 INFO find_json_value: selected_file into json/input_values.json is None
-2024-06-28 11:08:54,606 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:08:54,606 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
-2024-06-28 11:08:54,610 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 1.5, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:08:54,610 INFO Key=anglr_,And Value=24.0 is updated into json/input_values.json
-2024-06-28 11:08:54,614 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:08:54,614 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
-2024-06-28 11:08:54,629 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:08:54,629 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
-2024-06-28 11:08:54,659 INFO find_json_value: anglr_ into json/input_values.json is 24.0
-2024-06-28 11:09:11,226 INFO find_json_value: selected_file into json/input_values.json is None
-2024-06-28 11:09:11,227 INFO {'anglr_': 24.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:09:11,229 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
-2024-06-28 11:09:11,233 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:09:11,233 INFO Key=anglr_,And Value=0.0 is updated into json/input_values.json
-2024-06-28 11:09:11,248 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:09:11,248 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
-2024-06-28 11:09:11,252 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:09:11,252 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
-2024-06-28 11:09:11,279 INFO find_json_value: anglr_ into json/input_values.json is 0.0
-2024-06-28 11:09:27,906 INFO find_json_value: selected_file into json/input_values.json is None
-2024-06-28 11:09:27,907 INFO {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:09:27,908 INFO Key=steps,And Value=1000.0 is updated into json/input_values.json
-2024-06-28 11:09:27,912 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:09:27,913 INFO Key=anglr_,And Value=90.0 is updated into json/input_values.json
-2024-06-28 11:09:27,926 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:09:27,926 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
-2024-06-28 11:09:27,929 INFO {'anglr_': 90.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-06-28 11:09:27,930 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
-2024-06-28 11:09:27,980 INFO find_json_value: anglr_ into json/input_values.json is 90.0
-2024-07-07 07:24:54,379 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 07:24:54,387 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 07:24:54,394 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 07:24:54,401 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 07:24:54,408 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 07:24:54,414 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 07:24:57,134 INFO find_json_value: selected_file into json/input_values.json is None
-2024-07-07 07:24:57,135 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-07-07 07:24:57,135 INFO Key=steps,And Value=500.0 is updated into json/input_values.json
-2024-07-07 07:24:57,138 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-07-07 07:24:57,138 INFO Key=anglr_,And Value=50.0 is updated into json/input_values.json
-2024-07-07 07:24:57,140 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-07-07 07:24:57,141 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
-2024-07-07 07:24:57,143 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-07-07 07:24:57,143 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
-2024-07-07 07:24:57,165 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 07:31:48,978 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 07:31:48,982 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 07:31:48,986 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 07:31:48,990 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 07:31:48,993 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 07:31:48,997 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 07:31:50,905 INFO find_json_value: selected_file into json/input_values.json is None
-2024-07-07 07:31:50,907 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-07-07 07:31:50,908 INFO Key=steps,And Value=500.0 is updated into json/input_values.json
-2024-07-07 07:31:50,912 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-07-07 07:31:50,912 INFO Key=anglr_,And Value=50.0 is updated into json/input_values.json
-2024-07-07 07:31:50,917 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-07-07 07:31:50,917 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
-2024-07-07 07:31:50,921 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
-2024-07-07 07:31:50,921 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
-2024-07-07 07:31:50,948 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 07:42:29,373 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 07:42:29,378 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 07:42:29,382 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 07:42:29,389 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 07:42:29,392 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 07:42:29,396 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 07:42:33,986 INFO find_json_value: selected_file into json/input_values.json is None
-2024-07-07 07:42:46,687 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv'} is saved in json/input_values.json as JSON successfully.
-2024-07-07 07:42:46,687 INFO Key=selected_file,And Value=C:/Users/nares/Desktop/allout/240613/240607_104411.csv is updated into json/input_values.json
-2024-07-07 07:42:49,799 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 07:42:51,691 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 07:45:12,205 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 07:45:12,209 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 07:45:12,213 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 07:45:12,217 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 07:45:12,223 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 07:45:12,227 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 07:45:14,745 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 07:46:04,177 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 07:46:09,873 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 07:46:20,710 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 07:46:20,710 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 07:56:50,318 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 07:56:50,322 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 07:56:50,327 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 07:56:50,330 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 07:56:50,334 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 07:56:50,338 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 07:56:52,229 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 07:56:52,229 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 07:56:56,555 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 07:56:58,459 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:09:01,764 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:09:01,769 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:09:01,773 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:09:01,777 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:09:01,781 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:09:01,786 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:09:03,940 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:09:03,940 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:10:07,114 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:10:07,119 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:10:07,122 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:10:07,126 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:10:07,132 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:10:07,137 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:10:08,783 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:10:08,784 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:10:41,120 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:10:41,125 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:10:41,129 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:10:41,133 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:10:41,138 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:10:41,142 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:10:42,695 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:10:42,695 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:13:15,159 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:13:15,163 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:13:15,168 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:13:15,172 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:13:15,175 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:13:15,179 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:13:17,008 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:13:17,009 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:13:17,014 ERROR one_graph_all_param
-Traceback (most recent call last):
-  File "c:\Users\nares\source\repos\a\all_graph.py", line 10, in one_graph_all_param
-    my_lovr,ffi = read_csv_data(file)
-    ^^^^^^^^^^^
-ValueError: too many values to unpack (expected 2)
-2024-07-07 08:16:13,580 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:16:13,584 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:16:13,588 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:16:13,592 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:16:13,595 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:16:13,600 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:16:15,028 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:16:15,028 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:22:28,248 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:22:28,252 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:22:28,257 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:22:28,262 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:22:28,267 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:22:28,271 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:22:29,823 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:22:29,824 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:22:33,729 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:22:38,853 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:22:42,895 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:22:50,443 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:23:07,495 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:23:14,207 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:23:19,439 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:23:19,439 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:23:24,290 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:23:43,281 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:23:43,282 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:23:54,309 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:24:51,416 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:24:51,421 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:24:51,425 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:24:51,430 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:24:51,435 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:24:51,439 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:24:53,585 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:25:02,721 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:25:10,130 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:33:46,187 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:33:46,193 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:33:46,200 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:33:46,203 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:33:46,208 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:33:46,211 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:33:56,224 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:36:16,508 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:36:16,513 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:36:16,516 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:36:16,521 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:36:16,526 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:36:16,529 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:36:20,423 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:37:49,841 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:37:49,845 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:37:49,850 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:37:49,854 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:37:49,858 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:37:49,861 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:37:51,831 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:38:05,589 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:50:20,313 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:50:20,318 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:50:20,321 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:50:20,325 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:50:20,329 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:50:20,333 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:50:22,417 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:50:24,769 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:51:15,166 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:51:15,171 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:51:15,174 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:51:15,178 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:51:15,184 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:51:15,190 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:51:17,052 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:56:13,984 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:56:13,991 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:56:13,997 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:56:14,003 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:56:14,010 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:56:14,016 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:56:18,274 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:56:28,547 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv'} is saved in json/input_values.json as JSON successfully.
-2024-07-07 08:56:28,547 INFO Key=selected_file,And Value=C:/Users/nares/Desktop/allout/240613/240607_104411.csv is updated into json/input_values.json
-2024-07-07 08:56:30,284 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:57:12,177 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:57:12,181 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:57:12,185 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:57:12,189 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:57:12,193 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:57:12,196 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:57:13,742 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
-2024-07-07 08:57:31,328 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
-2024-07-07 08:57:31,328 INFO Key=selected_file,And Value=C:/Users/nares/Desktop/allout/240704/240704_142922.csv is updated into json/input_values.json
-2024-07-07 08:57:34,947 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 08:58:18,673 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 08:58:18,682 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 08:58:18,687 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 08:58:18,691 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 08:58:18,696 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 08:58:18,701 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 08:58:20,531 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:05:26,263 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:05:26,267 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:05:26,271 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:05:26,274 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:05:26,278 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:05:26,282 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:05:29,123 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:06:25,584 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:06:25,589 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:06:25,594 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:06:25,598 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:06:25,602 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:06:25,607 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:06:27,071 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:06:27,071 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:08:23,264 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:08:23,269 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:08:23,273 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:08:23,278 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:08:23,283 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:08:23,286 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:08:26,487 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:08:30,475 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:08:30,476 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:08:33,365 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:08:35,887 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:08:39,072 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:08:44,947 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:08:55,098 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:08:55,099 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
-2024-07-07 09:08:55,100 INFO Key=steps,And Value=500.0 is updated into json/input_values.json
-2024-07-07 09:08:55,104 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
-2024-07-07 09:08:55,105 INFO Key=anglr_,And Value=50.0 is updated into json/input_values.json
-2024-07-07 09:08:55,108 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
-2024-07-07 09:08:55,108 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
-2024-07-07 09:08:55,112 INFO {'anglr_': 50.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
-2024-07-07 09:08:55,112 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
-2024-07-07 09:08:55,126 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:09:03,056 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:10:38,377 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:10:38,385 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:10:38,389 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:10:38,394 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:10:38,399 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:10:38,403 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:10:52,721 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:11:19,673 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:11:19,679 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:11:19,684 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:11:19,689 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:11:19,694 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:11:19,699 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:11:22,138 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:13:25,363 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:13:25,368 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:13:25,371 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:13:25,375 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:13:25,379 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:13:25,382 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:13:30,833 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:13:30,834 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:13:34,186 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:13:39,072 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:13:43,865 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:13:53,400 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:14:14,640 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:14:33,688 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:14:44,776 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:16:10,760 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:16:10,768 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:16:10,772 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:16:10,776 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:16:10,782 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:16:10,787 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:16:12,162 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:16:20,753 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:18:50,231 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:18:50,236 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:18:50,240 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:18:50,243 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:18:50,248 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:18:50,251 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:18:53,638 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:19:28,114 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:19:28,119 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:19:28,123 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:19:28,127 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:19:28,131 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:19:28,140 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:19:29,828 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:19:58,891 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:19:58,896 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:19:58,900 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:19:58,907 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:19:58,911 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:19:58,915 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:20:00,121 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:20:47,525 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:20:47,530 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:20:47,534 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:20:47,539 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:20:47,543 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:20:47,546 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:20:49,197 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:21:46,280 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:21:46,285 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:21:46,291 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:21:46,295 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:21:46,300 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:21:46,305 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:21:49,072 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:22:46,546 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:22:46,553 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:22:46,556 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:22:46,560 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:22:46,566 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:22:46,570 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:22:48,605 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:25:55,708 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:25:55,713 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:25:55,717 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:25:55,720 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:25:55,724 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:25:55,728 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:25:57,592 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:26:09,759 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:30:09,055 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:30:09,060 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:30:09,065 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:30:09,069 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:30:09,073 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:30:09,077 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:30:11,065 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:30:57,521 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:30:57,526 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:30:57,530 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:30:57,534 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:30:57,537 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:30:57,541 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:30:59,272 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:31:41,733 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:31:41,738 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:31:41,742 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:31:41,750 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:31:41,754 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:31:41,758 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:31:43,399 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:32:38,659 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:32:38,663 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:32:38,667 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:32:38,672 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:32:38,676 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:32:38,680 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:32:40,548 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:33:28,670 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:33:28,675 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:33:28,679 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:33:28,684 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:33:28,687 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:33:28,691 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:33:30,801 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:34:16,114 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:34:16,119 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:34:16,123 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:34:16,129 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:34:16,134 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:34:16,137 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:34:17,770 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:39:18,636 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:39:18,643 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:39:18,649 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:39:18,654 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:39:18,658 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:39:18,662 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:39:20,492 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:42:34,215 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:42:34,223 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:42:34,229 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:42:34,235 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:42:34,241 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:42:34,248 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:42:35,954 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:45:03,077 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:45:03,081 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:45:03,085 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:45:03,089 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:45:03,092 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:45:03,096 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:45:09,394 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:46:05,648 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:46:05,654 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:46:05,660 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:46:05,665 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:46:05,679 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:46:05,683 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:46:07,256 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:46:42,347 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:46:42,351 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:46:42,355 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:46:42,359 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:46:42,362 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:46:42,367 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:46:43,940 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:48:43,431 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:48:43,437 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:48:43,441 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:48:43,445 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:48:43,449 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:48:43,455 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:48:45,058 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:49:06,243 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:49:06,251 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:49:06,261 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:49:06,266 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:49:06,272 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:49:06,275 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:49:07,597 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:49:34,480 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:49:34,485 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:49:34,490 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:49:34,495 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:49:34,499 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:49:34,502 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:49:35,743 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
-2024-07-07 09:50:03,728 INFO find_json_value: reso into json/input_values.json is None
-2024-07-07 09:50:03,734 INFO find_json_value: anglr_ into json/input_values.json is 50.0
-2024-07-07 09:50:03,742 INFO find_json_value: steps into json/input_values.json is 500.0
-2024-07-07 09:50:03,747 INFO find_json_value: coil_radius into json/input_values.json is None
-2024-07-07 09:50:03,752 INFO find_json_value: base_h into json/input_values.json is 2.0
-2024-07-07 09:50:03,760 INFO find_json_value: total_h into json/input_values.json is 4.0
-2024-07-07 09:50:05,288 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 15:55:23,270 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 15:55:23,275 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 15:55:23,280 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 15:55:23,283 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 15:55:23,287 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 15:55:23,291 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 15:55:28,308 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 15:55:28,310 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 15:55:28,310 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 15:55:28,314 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 15:55:28,314 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 15:55:28,317 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 15:55:28,318 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 15:55:28,321 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 15:55:28,321 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 15:55:28,322 ERROR xy rotarw
+2024-07-09 15:55:28,322 ERROR radius_calc() takes 4 positional arguments but 5 were given
+2024-07-09 15:55:28,323 ERROR savi
+2024-07-09 15:55:28,327 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 15:59:10,664 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 15:59:10,671 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 15:59:10,677 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 15:59:10,683 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 15:59:10,688 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 15:59:10,692 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 15:59:13,717 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 15:59:13,718 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 15:59:13,719 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 15:59:13,724 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 15:59:13,724 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 15:59:13,728 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 15:59:13,728 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 15:59:13,732 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 15:59:13,732 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 15:59:13,732 ERROR xy rotarw
+2024-07-09 15:59:13,733 ERROR radius_calc() takes 4 positional arguments but 5 were given
+2024-07-09 15:59:13,734 ERROR savi
+2024-07-09 15:59:13,737 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:00:42,703 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:00:42,709 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:00:42,714 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 16:00:42,717 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:00:42,722 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:00:42,728 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:00:44,684 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:00:44,686 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:00:44,686 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:00:44,698 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:00:44,698 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:00:44,702 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:00:44,702 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:00:44,705 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:00:44,706 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:00:44,706 ERROR xy rotarw
+2024-07-09 16:00:44,706 ERROR radius_calc() takes 4 positional arguments but 5 were given
+2024-07-09 16:00:44,708 ERROR savi
+2024-07-09 16:00:44,711 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:00:44,713 ERROR plot_csv_file
+2024-07-09 16:00:44,713 ERROR No data found in the CSV file.
+2024-07-09 16:00:49,386 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:00:49,388 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:00:49,388 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:00:49,392 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:00:49,392 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:00:49,396 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:00:49,396 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:00:49,400 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:00:49,400 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:00:49,436 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:00:49,571 ERROR plot_csv_file
+2024-07-09 16:00:49,571 ERROR cannot convert float infinity to integer
+2024-07-09 16:00:53,328 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:00:53,331 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:00:53,331 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:00:53,335 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:00:53,335 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:00:53,338 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:00:53,339 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:00:53,341 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:00:53,342 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:00:53,342 ERROR xy rotarw
+2024-07-09 16:00:53,342 ERROR radius_calc() takes 4 positional arguments but 5 were given
+2024-07-09 16:00:53,345 ERROR savi
+2024-07-09 16:00:53,348 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:00:53,350 ERROR plot_csv_file
+2024-07-09 16:00:53,350 ERROR No data found in the CSV file.
+2024-07-09 16:00:56,359 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:00:56,359 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:00:56,360 ERROR plot_csv_file
+2024-07-09 16:00:56,360 ERROR No data found in the CSV file.
+2024-07-09 16:00:57,897 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:08:59,131 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:08:59,136 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:08:59,141 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 16:08:59,145 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:08:59,151 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:08:59,155 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:09:01,559 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:09:01,561 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:09:01,562 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:09:01,565 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:09:01,565 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:09:01,569 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:09:01,569 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:09:01,573 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:09:01,573 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:09:03,138 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:09:03,141 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:09:03,141 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:09:03,144 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:09:03,144 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:09:03,149 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:09:03,149 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:09:03,153 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:09:03,153 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:09:04,819 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:09:04,821 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:09:04,821 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:09:04,825 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:09:04,825 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:09:04,828 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:09:04,829 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:09:04,831 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:09:04,833 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:09:04,833 ERROR xy rotarw
+2024-07-09 16:09:04,834 ERROR radius_calc() takes 4 positional arguments but 5 were given
+2024-07-09 16:09:04,835 ERROR savi
+2024-07-09 16:09:04,838 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:09:04,840 ERROR No data found in the CSV file.
+2024-07-09 16:09:07,248 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:09:55,514 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:09:55,520 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:09:55,524 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 16:09:55,529 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:09:55,533 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:09:55,537 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:10:06,415 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:10:06,421 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:10:06,425 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 16:10:06,429 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:10:06,433 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:10:06,439 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:10:08,494 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:10:08,496 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:08,496 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:10:08,501 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:08,502 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:10:08,505 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:08,505 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:10:08,508 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:08,509 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:10:12,386 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:10:12,389 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:12,389 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:10:12,392 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:12,393 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:10:12,396 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:12,397 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:10:12,400 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:12,400 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:10:12,424 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:10:12,568 ERROR cannot convert float infinity to integer
+2024-07-09 16:10:15,878 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:10:15,880 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:15,880 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:10:15,883 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:15,884 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:10:15,887 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:15,887 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:10:15,891 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:15,891 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:10:15,892 ERROR xy rotarw
+2024-07-09 16:10:15,893 ERROR radius_calc() takes 4 positional arguments but 5 were given
+2024-07-09 16:10:15,894 ERROR savi
+2024-07-09 16:10:15,896 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:10:15,899 ERROR No data found in the CSV file.
+2024-07-09 16:10:19,717 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:10:19,719 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:19,719 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:10:19,723 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:19,723 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:10:19,726 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:19,726 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:10:19,730 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:10:19,731 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:11:15,613 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:11:15,619 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:11:15,624 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 16:11:15,629 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:11:15,634 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:11:15,637 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:11:17,717 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:11:17,719 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:17,720 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:11:17,724 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:17,724 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:11:17,728 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:17,728 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:11:17,732 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:17,732 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:11:17,752 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:11:17,860 ERROR cannot convert float infinity to integer
+2024-07-09 16:11:24,457 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:11:24,459 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:24,460 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:11:24,464 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:24,464 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:11:24,468 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:24,468 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:11:24,472 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:24,472 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:11:24,495 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:11:24,593 ERROR cannot convert float infinity to integer
+2024-07-09 16:11:26,552 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:11:26,554 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:26,554 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:11:26,558 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:26,558 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:11:26,562 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:26,562 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:11:26,565 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:26,566 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:11:26,566 ERROR xy rotarw
+2024-07-09 16:11:26,568 ERROR radius_calc() takes 4 positional arguments but 5 were given
+2024-07-09 16:11:26,569 ERROR savi
+2024-07-09 16:11:26,572 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:11:26,574 ERROR No data found in the CSV file.
+2024-07-09 16:11:29,448 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:11:29,450 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:29,450 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:11:29,453 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:29,453 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:11:29,457 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:29,458 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:11:29,462 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:29,462 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:11:29,481 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:11:29,565 ERROR cannot convert float infinity to integer
+2024-07-09 16:11:31,325 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:11:31,326 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:31,327 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:11:31,330 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:31,330 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:11:31,333 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:31,335 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:11:31,338 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:31,338 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:11:31,361 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:11:31,473 ERROR cannot convert float infinity to integer
+2024-07-09 16:11:32,937 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:11:32,939 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:32,939 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:11:32,943 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:32,943 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:11:32,946 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:32,947 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:11:32,951 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:11:32,951 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:11:32,952 ERROR xy rotarw
+2024-07-09 16:11:32,952 ERROR radius_calc() takes 4 positional arguments but 5 were given
+2024-07-09 16:11:32,953 ERROR savi
+2024-07-09 16:11:32,956 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:11:32,959 ERROR No data found in the CSV file.
+2024-07-09 16:13:27,857 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:13:27,863 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:13:27,867 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 16:13:27,870 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:13:27,874 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:13:27,878 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:13:34,397 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:13:34,399 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:13:34,400 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:13:34,412 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:13:34,412 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:13:34,415 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:13:34,415 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:13:34,419 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:13:34,419 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:13:34,444 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:13:34,555 ERROR cannot convert float infinity to integer
+2024-07-09 16:15:54,138 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:15:54,144 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:15:54,148 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 16:15:54,152 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:15:54,155 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:15:54,160 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:16:08,627 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:16:08,628 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:08,628 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:16:08,633 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:08,633 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:16:08,637 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:08,637 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:16:08,640 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:08,640 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:16:14,810 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:16:14,811 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:14,811 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:16:14,815 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:14,815 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:16:14,818 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:14,819 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:16:14,822 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:14,822 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:16:16,967 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:16:16,968 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:16,969 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:16:16,973 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:16,973 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:16:16,976 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:16,976 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:16:16,980 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:16,980 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:16:16,981 ERROR xy rotarw
+2024-07-09 16:16:16,981 ERROR radius_calc() takes 4 positional arguments but 5 were given
+2024-07-09 16:16:16,983 ERROR savi
+2024-07-09 16:16:16,986 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:16:16,989 ERROR No data found in the CSV file.
+2024-07-09 16:16:39,892 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:16:39,898 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:16:39,901 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 16:16:39,905 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:16:39,909 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:16:39,913 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:16:47,001 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:16:47,004 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:47,004 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:16:47,008 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:47,008 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:16:47,012 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:47,012 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:16:47,016 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:47,016 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:16:47,038 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:16:54,307 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:16:54,310 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:54,310 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:16:54,315 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:54,315 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:16:54,319 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:54,319 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:16:54,322 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:16:54,322 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:16:54,346 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:17:01,822 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:17:01,824 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:17:01,824 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:17:01,829 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:17:01,829 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:17:01,833 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:17:01,833 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:17:01,837 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:17:01,837 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:17:01,838 ERROR xy rotarw
+2024-07-09 16:17:01,838 ERROR radius_calc() takes 4 positional arguments but 5 were given
+2024-07-09 16:17:01,840 ERROR savi
+2024-07-09 16:17:01,842 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:17:01,844 ERROR No data found in the CSV file.
+2024-07-09 16:17:04,720 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:17:04,722 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:17:04,722 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:17:04,726 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:17:04,726 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:17:04,730 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:17:04,730 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:17:04,733 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:17:04,734 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:17:04,766 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:19:05,892 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:19:05,896 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:19:05,902 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 16:19:05,907 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:19:05,911 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:19:05,916 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:19:09,843 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:19:09,845 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:19:09,845 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:19:09,850 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:19:09,850 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:19:09,854 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:19:09,854 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:19:09,857 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:19:09,857 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:19:09,890 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:20:53,878 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:20:53,883 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:20:53,892 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 16:20:53,897 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:20:53,904 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:20:53,910 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:20:59,360 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:20:59,361 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:20:59,361 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:20:59,364 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:20:59,364 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:20:59,366 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:20:59,366 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:20:59,368 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:20:59,368 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:22:45,692 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:22:45,697 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:22:45,701 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 16:22:45,705 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:22:45,709 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:22:45,713 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:22:51,421 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:22:51,422 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:22:51,422 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:22:51,427 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:22:51,427 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:22:51,430 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:22:51,430 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:22:51,434 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:22:51,434 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:22:51,441 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:23:00,418 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:23:00,419 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:00,421 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:23:00,424 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:00,424 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:23:00,427 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:00,428 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:23:00,431 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:00,432 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:23:00,438 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:23:14,315 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:23:14,317 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:14,317 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:23:14,320 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:14,321 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:23:14,324 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:14,325 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:23:14,328 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:14,329 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:23:14,335 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:23:36,846 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:23:36,848 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:36,848 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:23:36,852 INFO {'anglr_': 0.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:36,852 INFO Key=anglr_,And Value=0.0 is updated into json/input_values.json
+2024-07-09 16:23:36,867 INFO {'anglr_': 0.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:36,867 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:23:36,871 INFO {'anglr_': 0.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:36,871 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:23:36,877 INFO find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-09 16:23:44,707 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:23:44,710 INFO {'anglr_': 0.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:44,710 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:23:44,718 INFO {'anglr_': 80.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:44,719 INFO Key=anglr_,And Value=80.0 is updated into json/input_values.json
+2024-07-09 16:23:44,734 INFO {'anglr_': 80.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:44,735 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:23:44,738 INFO {'anglr_': 80.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:23:44,738 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:23:44,744 INFO find_json_value: anglr_ into json/input_values.json is 80.0
+2024-07-09 16:24:31,634 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:24:31,635 INFO {'anglr_': 80.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:24:31,636 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:24:31,640 INFO {'anglr_': 60.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:24:31,640 INFO Key=anglr_,And Value=60.0 is updated into json/input_values.json
+2024-07-09 16:24:31,653 INFO {'anglr_': 60.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:24:31,654 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:24:31,657 INFO {'anglr_': 60.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:24:31,657 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:24:31,663 INFO find_json_value: anglr_ into json/input_values.json is 60.0
+2024-07-09 16:24:44,509 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:24:44,511 INFO {'anglr_': 60.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:24:44,511 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:24:44,514 INFO {'anglr_': 40.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:24:44,514 INFO Key=anglr_,And Value=40.0 is updated into json/input_values.json
+2024-07-09 16:24:44,526 INFO {'anglr_': 40.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:24:44,526 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:24:44,529 INFO {'anglr_': 40.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:24:44,530 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:24:44,536 INFO find_json_value: anglr_ into json/input_values.json is 40.0
+2024-07-09 16:24:59,000 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:24:59,002 INFO {'anglr_': 40.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:24:59,002 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:24:59,006 INFO {'anglr_': 20.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:24:59,006 INFO Key=anglr_,And Value=20.0 is updated into json/input_values.json
+2024-07-09 16:24:59,021 INFO {'anglr_': 20.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:24:59,021 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:24:59,025 INFO {'anglr_': 20.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:24:59,026 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:24:59,030 INFO find_json_value: anglr_ into json/input_values.json is 20.0
+2024-07-09 16:25:14,545 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:25:14,548 INFO {'anglr_': 20.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:25:14,548 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:25:14,551 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:25:14,552 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:25:14,555 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:25:14,557 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:25:14,560 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:25:14,561 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:25:14,566 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:25:34,895 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:25:34,896 INFO {'anglr_': 10.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:25:34,897 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:25:34,900 INFO {'anglr_': 1.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:25:34,900 INFO Key=anglr_,And Value=1.0 is updated into json/input_values.json
+2024-07-09 16:25:34,912 INFO {'anglr_': 1.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:25:34,913 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:25:34,917 INFO {'anglr_': 1.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:25:34,917 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:25:34,922 INFO find_json_value: anglr_ into json/input_values.json is 1.0
+2024-07-09 16:25:53,526 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:25:53,528 INFO {'anglr_': 1.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:25:53,528 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:25:53,533 INFO {'anglr_': 5.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:25:53,533 INFO Key=anglr_,And Value=5.0 is updated into json/input_values.json
+2024-07-09 16:25:53,548 INFO {'anglr_': 5.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:25:53,548 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:25:53,552 INFO {'anglr_': 5.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:25:53,552 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:25:53,558 INFO find_json_value: anglr_ into json/input_values.json is 5.0
+2024-07-09 16:26:09,857 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:26:09,858 INFO {'anglr_': 5.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:26:09,858 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:26:09,862 INFO {'anglr_': 85.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:26:09,862 INFO Key=anglr_,And Value=85.0 is updated into json/input_values.json
+2024-07-09 16:26:09,874 INFO {'anglr_': 85.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:26:09,874 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:26:09,877 INFO {'anglr_': 85.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:26:09,878 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:26:09,883 INFO find_json_value: anglr_ into json/input_values.json is 85.0
+2024-07-09 16:27:45,336 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:27:45,342 INFO find_json_value: anglr_ into json/input_values.json is 85.0
+2024-07-09 16:27:45,346 INFO find_json_value: steps into json/input_values.json is 50.0
+2024-07-09 16:27:45,351 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:27:45,356 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:27:45,362 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:28:14,857 INFO find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240704/240704_142922.csv
+2024-07-09 16:28:14,860 INFO {'anglr_': 85.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:28:14,860 INFO Key=steps,And Value=50.0 is updated into json/input_values.json
+2024-07-09 16:28:14,868 INFO {'anglr_': 85.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:28:14,868 INFO Key=anglr_,And Value=85.0 is updated into json/input_values.json
+2024-07-09 16:28:14,872 INFO {'anglr_': 85.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:28:14,873 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:28:14,876 INFO {'anglr_': 85.0, 'steps': 50.0, 'base_h': 2.0, 'total_h': 4.0, 'selected_file': 'C:/Users/nares/Desktop/allout/240704/240704_142922.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:28:14,877 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:28:14,882 INFO find_json_value: anglr_ into json/input_values.json is 85.0
+2024-07-09 16:28:58,667 INFO [] is saved in json/input_btn_list.json as JSON successfully.
+2024-07-09 16:28:58,667 INFO {'Resolution': 'reso', 'Angle': 'anglr_', 'Total_Steps': 'steps', 'Coil_radius': 'coil_radius', 'Base_height': 'base_h', 'Total_height': 'total_h'} is saved in json/input_btn_list.json as JSON successfully.
+2024-07-09 16:28:58,669 INFO [] is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:28:58,670 ERROR Error: JSON data is not a dictionary.
+2024-07-09 16:28:58,676 ERROR Error: JSON data is not a dictionary.
+2024-07-09 16:28:58,690 ERROR Error: JSON data is not a dictionary.
+2024-07-09 16:28:58,695 ERROR Error: JSON data is not a dictionary.
+2024-07-09 16:28:58,700 ERROR Error: JSON data is not a dictionary.
+2024-07-09 16:28:58,704 ERROR Error: JSON data is not a dictionary.
+2024-07-09 16:29:04,118 ERROR Error: JSON data is not a dictionary.
+2024-07-09 16:29:04,120 INFO {'steps': 'steps'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:29:04,120 INFO Key=steps,And Value=steps is updated into json/input_values.json
+2024-07-09 16:29:04,133 INFO {'steps': 'steps', 'anglr_': 'anglr_'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:29:04,133 INFO Key=anglr_,And Value=anglr_ is updated into json/input_values.json
+2024-07-09 16:29:04,145 INFO {'steps': 'steps', 'anglr_': 'anglr_', 'base_h': 'base_h'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:29:04,146 INFO Key=base_h,And Value=base_h is updated into json/input_values.json
+2024-07-09 16:29:04,156 INFO {'steps': 'steps', 'anglr_': 'anglr_', 'base_h': 'base_h', 'total_h': 'total_h'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:29:04,156 INFO Key=total_h,And Value=total_h is updated into json/input_values.json
+2024-07-09 16:29:46,280 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 16:29:46,281 INFO {'steps': 100.0, 'anglr_': 'anglr_', 'base_h': 'base_h', 'total_h': 'total_h'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:29:46,282 INFO Key=steps,And Value=100.0 is updated into json/input_values.json
+2024-07-09 16:29:46,289 INFO {'steps': 100.0, 'anglr_': 10.0, 'base_h': 'base_h', 'total_h': 'total_h'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:29:46,289 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:29:46,295 INFO {'steps': 100.0, 'anglr_': 10.0, 'base_h': 2.0, 'total_h': 'total_h'} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:29:46,295 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:29:46,300 INFO {'steps': 100.0, 'anglr_': 10.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:29:46,301 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:29:46,309 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:35:58,396 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:35:58,401 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:35:58,404 INFO find_json_value: steps into json/input_values.json is 100.0
+2024-07-09 16:35:58,408 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:35:58,412 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:35:58,416 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:36:00,947 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 16:36:00,949 INFO {'steps': 100.0, 'anglr_': 10.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:00,949 INFO Key=steps,And Value=100.0 is updated into json/input_values.json
+2024-07-09 16:36:00,953 INFO {'steps': 100.0, 'anglr_': 10.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:00,954 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:36:00,957 INFO {'steps': 100.0, 'anglr_': 10.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:00,958 INFO Key=anglr_,And Value=10.0 is updated into json/input_values.json
+2024-07-09 16:36:00,961 INFO {'steps': 100.0, 'anglr_': 10.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:00,961 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:36:00,969 INFO find_json_value: anglr_ into json/input_values.json is 10.0
+2024-07-09 16:36:12,600 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 16:36:12,602 INFO {'steps': 100.0, 'anglr_': 10.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:12,603 INFO Key=steps,And Value=100.0 is updated into json/input_values.json
+2024-07-09 16:36:12,607 INFO {'steps': 100.0, 'anglr_': 10.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:12,608 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:36:12,611 INFO {'steps': 100.0, 'anglr_': 5.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:12,612 INFO Key=anglr_,And Value=5.0 is updated into json/input_values.json
+2024-07-09 16:36:12,625 INFO {'steps': 100.0, 'anglr_': 5.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:12,626 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:36:12,633 INFO find_json_value: anglr_ into json/input_values.json is 5.0
+2024-07-09 16:36:27,796 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 16:36:27,798 INFO {'steps': 100.0, 'anglr_': 5.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:27,798 INFO Key=steps,And Value=100.0 is updated into json/input_values.json
+2024-07-09 16:36:27,802 INFO {'steps': 100.0, 'anglr_': 5.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:27,802 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:36:27,805 INFO {'steps': 100.0, 'anglr_': 3.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:27,806 INFO Key=anglr_,And Value=3.0 is updated into json/input_values.json
+2024-07-09 16:36:27,820 INFO {'steps': 100.0, 'anglr_': 3.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:27,820 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:36:27,828 INFO find_json_value: anglr_ into json/input_values.json is 3.0
+2024-07-09 16:36:39,276 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 16:36:39,277 INFO {'steps': 100.0, 'anglr_': 3.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:39,278 INFO Key=steps,And Value=100.0 is updated into json/input_values.json
+2024-07-09 16:36:39,282 INFO {'steps': 100.0, 'anglr_': 3.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:39,282 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:36:39,286 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:39,286 INFO Key=anglr_,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:36:39,297 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:36:39,298 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:36:39,304 INFO find_json_value: anglr_ into json/input_values.json is 2.0
+2024-07-09 16:37:32,969 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:37:32,974 INFO find_json_value: anglr_ into json/input_values.json is 2.0
+2024-07-09 16:37:32,978 INFO find_json_value: steps into json/input_values.json is 100.0
+2024-07-09 16:37:32,983 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:37:32,988 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:37:32,994 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:39:35,732 INFO find_json_value: reso into json/input_values.json is None
+2024-07-09 16:39:35,737 INFO find_json_value: anglr_ into json/input_values.json is 2.0
+2024-07-09 16:39:35,742 INFO find_json_value: steps into json/input_values.json is 100.0
+2024-07-09 16:39:35,745 INFO find_json_value: coil_radius into json/input_values.json is None
+2024-07-09 16:39:35,749 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:39:35,753 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:40:01,370 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 16:40:01,372 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:40:01,372 INFO Key=steps,And Value=100.0 is updated into json/input_values.json
+2024-07-09 16:40:01,376 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:40:01,376 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:40:01,380 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:40:01,381 INFO Key=anglr_,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:40:01,385 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:40:01,385 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:40:01,388 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:40:01,388 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 16:40:01,401 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:40:01,401 INFO Key=coil_radius,And Value=5.0 is updated into json/input_values.json
+2024-07-09 16:40:01,411 INFO find_json_value: anglr_ into json/input_values.json is 2.0
+2024-07-09 16:40:19,491 INFO find_json_value: reso into json/input_values.json is 0.001
+2024-07-09 16:40:19,495 INFO find_json_value: anglr_ into json/input_values.json is 2.0
+2024-07-09 16:40:19,499 INFO find_json_value: steps into json/input_values.json is 100.0
+2024-07-09 16:40:19,503 INFO find_json_value: coil_radius into json/input_values.json is 5.0
+2024-07-09 16:40:19,507 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:40:19,511 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:53:48,034 INFO find_json_value: reso into json/input_values.json is 0.001
+2024-07-09 16:53:48,038 INFO find_json_value: anglr_ into json/input_values.json is 2.0
+2024-07-09 16:53:48,042 INFO find_json_value: steps into json/input_values.json is 100.0
+2024-07-09 16:53:48,046 INFO find_json_value: coil_radius into json/input_values.json is 5.0
+2024-07-09 16:53:48,051 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:53:48,056 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:53:51,023 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 16:53:51,025 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:53:51,025 INFO Key=steps,And Value=100.0 is updated into json/input_values.json
+2024-07-09 16:53:51,030 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:53:51,030 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:53:51,034 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:53:51,034 INFO Key=anglr_,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:53:51,038 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:53:51,039 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:53:51,041 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:53:51,042 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 16:53:51,044 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:53:51,046 INFO Key=coil_radius,And Value=5.0 is updated into json/input_values.json
+2024-07-09 16:53:51,117 INFO find_json_value: anglr_ into json/input_values.json is 2.0
+2024-07-09 16:59:24,561 INFO find_json_value: reso into json/input_values.json is 0.001
+2024-07-09 16:59:24,566 INFO find_json_value: anglr_ into json/input_values.json is 2.0
+2024-07-09 16:59:24,571 INFO find_json_value: steps into json/input_values.json is 100.0
+2024-07-09 16:59:24,577 INFO find_json_value: coil_radius into json/input_values.json is 5.0
+2024-07-09 16:59:24,582 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 16:59:24,586 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 16:59:27,271 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 16:59:27,273 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:27,273 INFO Key=steps,And Value=100.0 is updated into json/input_values.json
+2024-07-09 16:59:27,278 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:27,278 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:59:27,282 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:27,282 INFO Key=anglr_,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:59:27,285 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:27,285 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:59:27,288 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:27,290 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 16:59:27,293 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:27,293 INFO Key=coil_radius,And Value=5.0 is updated into json/input_values.json
+2024-07-09 16:59:27,360 INFO find_json_value: anglr_ into json/input_values.json is 2.0
+2024-07-09 16:59:42,229 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 16:59:42,231 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:42,231 INFO Key=steps,And Value=100.0 is updated into json/input_values.json
+2024-07-09 16:59:42,235 INFO {'steps': 100.0, 'anglr_': 2.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:42,235 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:59:42,238 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:42,239 INFO Key=anglr_,And Value=20.0 is updated into json/input_values.json
+2024-07-09 16:59:42,250 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:42,250 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:59:42,255 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:42,255 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 16:59:42,257 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:42,257 INFO Key=coil_radius,And Value=5.0 is updated into json/input_values.json
+2024-07-09 16:59:42,315 INFO find_json_value: anglr_ into json/input_values.json is 20.0
+2024-07-09 16:59:47,046 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 16:59:47,049 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:47,049 INFO Key=steps,And Value=100.0 is updated into json/input_values.json
+2024-07-09 16:59:47,053 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:47,054 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 16:59:47,056 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:47,057 INFO Key=anglr_,And Value=20.0 is updated into json/input_values.json
+2024-07-09 16:59:47,060 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:47,061 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 16:59:47,063 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:47,065 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 16:59:47,068 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 16:59:47,068 INFO Key=coil_radius,And Value=5.0 is updated into json/input_values.json
+2024-07-09 16:59:47,141 INFO find_json_value: anglr_ into json/input_values.json is 20.0
+2024-07-09 17:02:05,494 INFO find_json_value: reso into json/input_values.json is 0.001
+2024-07-09 17:02:05,499 INFO find_json_value: anglr_ into json/input_values.json is 20.0
+2024-07-09 17:02:05,503 INFO find_json_value: steps into json/input_values.json is 100.0
+2024-07-09 17:02:05,508 INFO find_json_value: coil_radius into json/input_values.json is 5.0
+2024-07-09 17:02:05,511 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 17:02:05,515 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 17:02:06,965 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 17:02:06,967 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:02:06,967 INFO Key=steps,And Value=100.0 is updated into json/input_values.json
+2024-07-09 17:02:06,971 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:02:06,971 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 17:02:06,976 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:02:06,976 INFO Key=anglr_,And Value=20.0 is updated into json/input_values.json
+2024-07-09 17:02:06,979 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:02:06,981 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 17:02:06,984 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:02:06,984 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 17:02:06,988 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:02:06,989 INFO Key=coil_radius,And Value=5.0 is updated into json/input_values.json
+2024-07-09 17:02:07,053 INFO find_json_value: anglr_ into json/input_values.json is 20.0
+2024-07-09 17:03:21,380 INFO find_json_value: reso into json/input_values.json is 0.001
+2024-07-09 17:03:21,386 INFO find_json_value: anglr_ into json/input_values.json is 20.0
+2024-07-09 17:03:21,390 INFO find_json_value: steps into json/input_values.json is 100.0
+2024-07-09 17:03:21,393 INFO find_json_value: coil_radius into json/input_values.json is 5.0
+2024-07-09 17:03:21,397 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 17:03:21,400 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 17:05:53,466 INFO find_json_value: reso into json/input_values.json is 0.001
+2024-07-09 17:05:53,475 INFO find_json_value: anglr_ into json/input_values.json is 20.0
+2024-07-09 17:05:53,479 INFO find_json_value: steps into json/input_values.json is 100.0
+2024-07-09 17:05:53,482 INFO find_json_value: coil_radius into json/input_values.json is 5.0
+2024-07-09 17:05:53,487 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 17:05:53,491 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 17:05:55,484 INFO find_json_value: selected_file into json/input_values.json is None
+2024-07-09 17:05:55,485 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:05:55,486 INFO Key=steps,And Value=100.0 is updated into json/input_values.json
+2024-07-09 17:05:55,489 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:05:55,489 INFO Key=total_h,And Value=4.0 is updated into json/input_values.json
+2024-07-09 17:05:55,492 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:05:55,492 INFO Key=anglr_,And Value=20.0 is updated into json/input_values.json
+2024-07-09 17:05:55,496 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:05:55,497 INFO Key=base_h,And Value=2.0 is updated into json/input_values.json
+2024-07-09 17:05:55,500 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:05:55,500 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 17:05:55,504 INFO {'steps': 100.0, 'anglr_': 20.0, 'base_h': 2.0, 'total_h': 4.0, 'reso': 0.001, 'coil_radius': 5.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:05:55,504 INFO Key=coil_radius,And Value=5.0 is updated into json/input_values.json
+2024-07-09 17:05:55,571 INFO find_json_value: anglr_ into json/input_values.json is 20.0
+2024-07-09 17:07:01,052 INFO find_json_value: reso into json/input_values.json is 0.001
+2024-07-09 17:07:01,057 INFO find_json_value: anglr_ into json/input_values.json is 20.0
+2024-07-09 17:07:01,062 INFO find_json_value: steps into json/input_values.json is 100.0
+2024-07-09 17:07:01,068 INFO find_json_value: coil_radius into json/input_values.json is 5.0
+2024-07-09 17:07:01,073 INFO find_json_value: base_h into json/input_values.json is 2.0
+2024-07-09 17:07:01,078 INFO find_json_value: total_h into json/input_values.json is 4.0
+2024-07-09 17:07:24,381 INFO [] is saved in json/input_btn_list.json as JSON successfully.
+2024-07-09 17:07:24,383 INFO {'Resolution': 'reso', 'Angle': 'anglr_', 'Coil_radius': 'coil_radius', 'Base_height': 'base_h', 'Total_height': 'total_h'} is saved in json/input_btn_list.json as JSON successfully.
+2024-07-09 17:07:24,390 INFO [] is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:07:24,390 ERROR Error: JSON data is not a dictionary.
+2024-07-09 17:07:24,399 ERROR Error: JSON data is not a dictionary.
+2024-07-09 17:07:24,403 ERROR Error: JSON data is not a dictionary.
+2024-07-09 17:07:24,407 ERROR Error: JSON data is not a dictionary.
+2024-07-09 17:07:24,414 ERROR Error: JSON data is not a dictionary.
+2024-07-09 17:08:03,962 ERROR Error: JSON data is not a dictionary.
+2024-07-09 17:08:03,964 INFO {'total_h': 4.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:08:03,964 INFO Key=total_h,And Value=4.5 is updated into json/input_values.json
+2024-07-09 17:08:03,982 INFO {'total_h': 4.5, 'anglr_': 45.0} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:08:03,983 INFO Key=anglr_,And Value=45.0 is updated into json/input_values.json
+2024-07-09 17:08:03,997 INFO {'total_h': 4.5, 'anglr_': 45.0, 'base_h': 1.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:08:03,997 INFO Key=base_h,And Value=1.5 is updated into json/input_values.json
+2024-07-09 17:08:04,004 INFO {'total_h': 4.5, 'anglr_': 45.0, 'base_h': 1.5, 'reso': 0.001} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:08:04,004 INFO Key=reso,And Value=0.001 is updated into json/input_values.json
+2024-07-09 17:08:04,008 INFO {'total_h': 4.5, 'anglr_': 45.0, 'base_h': 1.5, 'reso': 0.001, 'coil_radius': 2.5} is saved in json/input_values.json as JSON successfully.
+2024-07-09 17:08:04,008 INFO Key=coil_radius,And Value=2.5 is updated into json/input_values.json
+2024-07-09 17:08:04,082 INFO find_json_value: anglr_ into json/input_values.json is 45.0

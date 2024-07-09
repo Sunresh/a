@@ -1,7 +1,7 @@
 {
-    "anglr_": 50.0,
-    "steps": 500.0,
-    "base_h": 2.0,
-    "total_h": 4.0,
-    "selected_file": "C:/Users/nares/Desktop/allout/240704/240704_142922.csv"
+    "total_h": 4.5,
+    "anglr_": 80.0,
+    "base_h": 1.5,
+    "reso": 0.001,
+    "coil_radius": 2.5
 }

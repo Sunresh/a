@@ -1,7 +1,6 @@
 {
     "Resolution": "reso",
     "Angle": "anglr_",
-    "Total_Steps": "steps",
     "Coil_radius": "coil_radius",
     "Base_height": "base_h",
     "Total_height": "total_h"

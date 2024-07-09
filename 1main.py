@@ -55,39 +55,27 @@ def show_selected_item(selected_item):
         open_file_dialog(frame2)
 
     elif selected_item == "Generate_X_Rotate":
-        total_steps = vvv("steps")
-        angle_ = vvv("anglr_")
-        base_h = vvv("base_h")
-        total_h = vvv("total_h")
-        spiral_data = x_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
+        resolution,total_h,base_h, angle_ = load_va()
+        spiral_data = x_axis_rrotat(angle=angle_,resolution=resolution,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         plot_csv_file(SPIRAL_CSV_FILE)
 
     
     elif selected_item == "Generate_Y_Rotate":
-        total_steps = vvv("steps")
-        angle_ = vvv("anglr_")
-        total_h = vvv("total_h")
-        base_h = vvv("base_h")
-        spiral_data = y_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
+        resolution,total_h,base_h, angle_ = load_va()
+        spiral_data = y_axis_rrotat(angle=angle_,resolution=resolution,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         plot_csv_file(SPIRAL_CSV_FILE)
 
     elif selected_item == "Generate_XT_Rotate":
-        total_steps = vvv("steps")
-        total_h = vvv("total_h")
-        angle_ = vvv("anglr_")
-        base_h = vvv("base_h")
-        spiral_data = xy_rotate(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
+        resolution,total_h,base_h, angle_ = load_va()
+        spiral_data = xy_rotate(angle=angle_,resolution=resolution,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         plot_csv_file(SPIRAL_CSV_FILE)
 
     elif selected_item == "Generate_3D_CSV":
-        total_steps = vvv("steps")
-        angle_ = vvv("anglr_")
-        total_h = vvv("total_h")
-        base_h = vvv("base_h")
-        spiral_data = spiral(total_steps=total_steps,base_height=base_h,total_height=total_h)
+        resolution,total_h,base_h, angle_ = load_va()
+        spiral_data = spiral(resolution=resolution,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         plot_csv_file(SPIRAL_CSV_FILE)
     
@@ -101,6 +89,13 @@ def show_selected_item(selected_item):
         logging.info(f"You selected: {selected_item}")
         #label.config(text="You selected: " + selected_item)
 
+def load_va():
+    total_h = updating_value("total_h")
+    angle_ = updating_value("anglr_")
+    base_h = updating_value("base_h")
+    resolution = updating_value("reso")
+    coil_radius = updating_value("coil_radius")
+    return resolution,total_h,base_h, angle_
 
 my_list ={}
 
@@ -115,7 +110,7 @@ def create_labeled_entry(frame, label_text,json_key):
     r1.pack(pady=10)
     return r1
 
-def vvv(key):
+def updating_value(key):
     if key in my_list:
         tata = my_list[key].get()
         try:
@@ -145,7 +140,6 @@ button_list_items = [
 default_input_list = {
     "Resolution":"reso",
     "Angle":"anglr_",
-    "Total_Steps":"steps",
     "Coil_radius":"coil_radius",
     "Base_height":"base_h",
     "Total_height":"total_h"
