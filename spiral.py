@@ -57,9 +57,9 @@ def spiral(angle,resolution,base_height,total_height):
         else:
             radius = RADIUS_OF_COIL
 
-        x = round(radius * math.cos(nt * 2 * np.pi * index / total_steps) + RADIUS_OF_COIL, 4)
-        y = round(radius * math.sin(nt * 2 * math.pi * index / total_steps) + RADIUS_OF_COIL, 4)
-        z = round(index * resolution, 4)
+        x = format(radius * math.cos(nt * 2 * np.pi * index / total_steps) + RADIUS_OF_COIL, '.4f')
+        y = format(radius * math.sin(nt * 2 * math.pi * index / total_steps) + RADIUS_OF_COIL, '.4f')
+        z = format(index * resolution, '.4f')
         x_data.append(x)
         y_data.append(y)
         z_data.append(z)
@@ -93,9 +93,9 @@ def x_axis_rrotat(angle,resolution,base_height,total_height):
     total_steps, base_steps, transition_steps = steps_segment(resolution,base_height,total_height)
     while index < total_steps:
         radius,z_axix = radius_calc(index,resolution,base_steps,total_steps,angle)
-        x = round(radius + RADIUS_OF_COIL, 4)
-        y = round(RADIUS_OF_COIL, 4)
-        z = round(z_axix, 4)
+        x = format(radius + RADIUS_OF_COIL, '.7f')
+        y = format(RADIUS_OF_COIL, '.7f')
+        z = format(z_axix, '.7f')
         x_data.append(x)
         y_data.append(y)
         z_data.append(z)
@@ -113,9 +113,9 @@ def y_axis_rrotat(angle,resolution,base_height,total_height):
 
     while index < total_steps:
         radius,z_axix = radius_calc(index,resolution,base_steps,total_steps,angle)
-        x = round(RADIUS_OF_COIL, 4)
-        y = round(radius + RADIUS_OF_COIL, 4)
-        z = round(z_axix, 4)
+        x = format(RADIUS_OF_COIL, '.7f')
+        y = format(radius + RADIUS_OF_COIL, '.7f')
+        z = format(z_axix, '.7f')
         x_data.append(x)
         y_data.append(y)
         z_data.append(z)
@@ -150,9 +150,9 @@ def xy_rotate(angle,resolution,base_height,total_height):
         total_steps, base_steps, transition_steps = steps_segment(resolution,base_height,total_height)
         while index < total_steps:
             radius,z_axix = radius_calc(index,resolution,base_steps,total_steps,angle)
-            x = round(radius + RADIUS_OF_COIL, 4)
-            y = round(radius + RADIUS_OF_COIL, 4)
-            z = round(z_axix, 4)
+            x = format(radius + RADIUS_OF_COIL, '.4f')
+            y = format(radius + RADIUS_OF_COIL, '.4f')
+            z = format(z_axix, '.4f')
             x_data.append(x)
             y_data.append(y)
             z_data.append(z)
