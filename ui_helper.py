@@ -26,14 +26,14 @@ def read_csv_two(file_paths):
             
     return data
 
-def open_file_dialog(master):
+def open_file_dialog(key):
     file_path = filedialog.askopenfilename(
         title="Select a JSON File",
         filetypes=[("CSV files", "*.csv"), ("All files", "*.*")]
     )
     if file_path:
         logging.info(f"Selected file: {file_path}")
-        update_json(INPUT_VALUES,"selected_file",file_path)
+        update_json(INPUT_VALUES,key,file_path)
         #load_settings(master,file_path)
 
 

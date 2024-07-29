@@ -3,8 +3,8 @@ import customtkinter
 
 from all_graph import one_graph_all_param, non_truncate, truncate_plot, two_file_plot_data
 from constants import INPUT_BTN_LIST, INPUT_VALUES, SPIRAL_CSV_FILE
-from spiral import plot_csv_file, spiral, x_axis_rrotat, xy_rotate, y_axis_rrotat
-from tools import find_json_value, read_json, save_as_json, save_to_csv, update_json,logger
+from spiral import Spiral
+from tools import find_json_value, read_json, save_as_json, update_json, logger
 from ui_helper import create_entry, open_file_dialog
 
 customtkinter.set_appearance_mode("Light")  # Modes: "System" (standard), "Dark", "Light"
@@ -26,9 +26,9 @@ label2 = customtkinter.CTkLabel(master=frame2, text="Settings")
 label2.pack(pady=20)
 
 def show_selected_item(selected_item):
-    csv_file = find_json_value(INPUT_VALUES,"selected_file")
-    if selected_item == "All":
-        csv_file = find_json_value(INPUT_VALUES,"selected_file")
+    csv_file = find_json_value(INPUT_VALUES,"file1")
+    if selected_item == "All file1":
+        csv_file = find_json_value(INPUT_VALUES,"file1")
         one_graph_all_param(file=csv_file)
 
     elif selected_item == "Truncate Plot":
@@ -41,36 +41,30 @@ def show_selected_item(selected_item):
         t_file = [csv_file,csv_file]
         two_file_plot_data(two_files= t_file)
 
-    elif selected_item == "Choose csv file":
-        open_file_dialog(frame2)
+    elif selected_item == "Choose csv file1":
+        open_file_dialog("file1")
+        
+    elif selected_item == "Choose csv file2":
+        open_file_dialog("file2")
 
-    elif selected_item == "Generate_X_Rotate":
-        resolution,total_h,base_h, angle_ = load_va()
-        spiral_data = x_axis_rrotat(angle=angle_,resolution=resolution,base_height=base_h,total_height=total_h)
-        save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        plot_csv_file(SPIRAL_CSV_FILE)
+    elif selected_item == "X_Rotate":
+        load_va()
+        Spiral().axis_rotate('x')
 
-    
-    elif selected_item == "Generate_Y_Rotate":
-        resolution,total_h,base_h, angle_ = load_va()
-        spiral_data = y_axis_rrotat(angle=angle_,resolution=resolution,base_height=base_h,total_height=total_h)
-        save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        plot_csv_file(SPIRAL_CSV_FILE)
+    elif selected_item == "Y_Rotate":
+        load_va()
+        Spiral().axis_rotate('y')
 
-    elif selected_item == "Generate_XT_Rotate":
-        resolution,total_h,base_h, angle_ = load_va()
-        spiral_data = xy_rotate(angle=angle_,resolution=resolution,base_height=base_h,total_height=total_h)
-        save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        plot_csv_file(SPIRAL_CSV_FILE)
+    elif selected_item == "XY_Rotate":
+        load_va()
+        Spiral().axis_rotate('xy')
 
-    elif selected_item == "Generate_3D_CSV":
-        resolution,total_h,base_h, angle_ = load_va()
-        spiral_data = spiral(angle=angle_,resolution=resolution,base_height=base_h,total_height=total_h)
-        save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        plot_csv_file(SPIRAL_CSV_FILE)
+    elif selected_item == "3D_CSV":
+        load_va()
+        Spiral().spiral()
     
     elif selected_item == "Plot CSV":
-        plot_csv_file(SPIRAL_CSV_FILE)
+        Spiral().plot_csv_file(SPIRAL_CSV_FILE)
 
     elif selected_item == "Exit":
         global app
@@ -114,15 +108,16 @@ def updating_value(key):
     return int_value
 
 button_list_items = [
-    "Choose csv file",
-    "All", 
+    "Choose csv file1",
+    "Choose csv file2",
+    "All file1", 
     "Truncate Plot", 
     "Non-Truncate Plot", 
     "Two files plot", 
-    "Generate_X_Rotate", 
-    "Generate_Y_Rotate", 
-    "Generate_XT_Rotate", 
-    "Generate_3D_CSV", 
+    "X_Rotate", 
+    "Y_Rotate", 
+    "XY_Rotate", 
+    "3D_CSV", 
     "Plot CSV", 
     "Exit"
 ]

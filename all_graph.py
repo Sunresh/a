@@ -107,7 +107,6 @@ def two_file_plot_data(two_files, X_COLUMN="sn", X_LABEL="B"):
 
 
 def start_plt(x_label="x-label is not passed.", y_label="y-label is not passed.", title="Title is not passed.",FONT_SIZE=12):
-    logger.info(f"{title} is successfully plotted")
     plt.axhline(y=0.5, color='r', linestyle='--', label='y = 0.5')  # Add this line to plot the horizontal line at y=0.5
     plt.axvline(x=50, color='g', linestyle=':', label='x = 50')  # Vertical line at x=50 (customize x-value as needed)
     # Add labels and title
