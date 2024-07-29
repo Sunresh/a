@@ -1,39 +1,29 @@
-import logging
 import tkinter as tk
 import customtkinter
 
 from all_graph import one_graph_all_param, non_truncate, truncate_plot, two_file_plot_data
 from constants import INPUT_BTN_LIST, INPUT_VALUES, SPIRAL_CSV_FILE
 from spiral import plot_csv_file, spiral, x_axis_rrotat, xy_rotate, y_axis_rrotat
-from tools import find_json_value, read_json, save_as_json, save_to_csv, update_json
+from tools import find_json_value, read_json, save_as_json, save_to_csv, update_json,logger
 from ui_helper import create_entry, open_file_dialog
-
-
-logging.basicConfig(filename='api_errors.log', level=logging.ERROR, 
-                    format='%(asctime)s %(levelname)s %(message)s')
 
 customtkinter.set_appearance_mode("Light")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
-
 # Create the main window
 app = customtkinter.CTk()
 app.geometry("800x640")
 app.title("3D Model Generator")
 frame1 = customtkinter.CTkFrame(master=app, width=280, height=280)
 frame1.pack(side="left", padx=10, pady=10, expand=True, fill="both")
-
 # Add a label to Frame 1
 label1 = customtkinter.CTkLabel(master=frame1, text="Actions")
 label1.pack(pady=20)
-
 # Create Frame 2
 frame2 = customtkinter.CTkFrame(master=app, width=280, height=280)
 frame2.pack(side="left", padx=10, pady=10, expand=True, fill="both")
-
 # Add a label to Frame 2
 label2 = customtkinter.CTkLabel(master=frame2, text="Settings")
 label2.pack(pady=20)
-
 
 def show_selected_item(selected_item):
     csv_file = find_json_value(INPUT_VALUES,"selected_file")
@@ -86,7 +76,7 @@ def show_selected_item(selected_item):
         global app
         app.destroy()
     else:
-        logging.info(f"You selected: {selected_item}")
+        logger.info(f"You selected: {selected_item}")
         #label.config(text="You selected: " + selected_item)
 
 def load_va():

@@ -1,7 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import logging
-
+from tools import logger
 
 def one_graph_all_param(file):
     try:
@@ -12,7 +11,7 @@ def one_graph_all_param(file):
         start_plt()
 
     except Exception:
-        logging.error("one_graph_all_param",exc_info=True)
+        logger.error("one_graph_all_param",exc_info=True)
 
 
 def non_truncate(file):
@@ -74,7 +73,7 @@ def two_file_plot_data(two_files, X_COLUMN="sn", X_LABEL="B"):
     num_y_columns = len(y_columns)
     num_files = len(data)
     if num_y_columns == 0:
-        logging.error("No y-columns found.")
+        logger.error("No y-columns found.")
         return
 
     if num_files == 1:
@@ -108,7 +107,7 @@ def two_file_plot_data(two_files, X_COLUMN="sn", X_LABEL="B"):
 
 
 def start_plt(x_label="x-label is not passed.", y_label="y-label is not passed.", title="Title is not passed.",FONT_SIZE=12):
-    logging.info(f"{title} is successfully plotted")
+    logger.info(f"{title} is successfully plotted")
     plt.axhline(y=0.5, color='r', linestyle='--', label='y = 0.5')  # Add this line to plot the horizontal line at y=0.5
     plt.axvline(x=50, color='g', linestyle=':', label='x = 50')  # Vertical line at x=50 (customize x-value as needed)
     # Add labels and title
@@ -122,7 +121,7 @@ def start_plt(x_label="x-label is not passed.", y_label="y-label is not passed."
     plt.show()
 
 def axis_plot(ax, dataframe, col ="No y label passed",x_column="sn"):
-    logging.info(f"{col} is called to plot")
+    logger.info(f"{col} is called to plot")
     ax.plot(dataframe[x_column], dataframe[col], label=col)
     ax.set_title('')  # Clear subplot title
     ax.set_xlabel('')  # Clear x-label for all subplots
@@ -149,7 +148,7 @@ def read_csv_data(filename):
         # Extract the first row
         return dataframe, first_col, except_first, header_array
     except Exception:
-        logging.error("read_csv_data", exc_info=True)
+        logger.error("read_csv_data", exc_info=True)
         return None
     
     

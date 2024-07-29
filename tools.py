@@ -1,12 +1,25 @@
 import csv
-from datetime import date
-import logging
 import os
 import subprocess
 import sys
 import json
 
 import numpy as np
+
+
+import logging
+
+# Configure the logging settings
+logging.basicConfig(
+    encoding='utf-8',          # Log encoding
+    filename='file.log',       # Log file name
+    level=logging.DEBUG,       # Log level
+    format='%(asctime)s - %(filename)s - %(lineno)d - %(levelname)s - %(message)s'  # Log message format
+)
+
+# Create a logger object
+logger = logging.getLogger(__name__)
+
 
 def isFileExists(file):
     if not os.path.exists(file):
@@ -21,27 +34,6 @@ def isFileExists(file):
             if not directory =='':
                 print(f"Creating directory: {directory}")
                 os.makedirs(directory)
-
-def setup_logger(logger):
-    logger.setLevel(logging.DEBUG)
-    today_ = date.today()
-    formatted_date = today_.strftime("%Y-%m-%d")
-    # Create a file handler
-    isFileExists(f'logs/{formatted_date}.log')
-    handler = logging.FileHandler(f'logs/{formatted_date}.log')
-    handler.setLevel(logging.DEBUG)
-    
-    # Create a logging format
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    handler.setFormatter(formatter)
-    
-    # Add the file handler to the logger
-    logger.addHandler(handler)
-    
-    return logger
-
-
-logger = setup_logger(logger=logging.getLogger(__name__))
 
 def install_package(package_name):
     try:
@@ -126,8 +118,8 @@ def save_to_csv(data, filename):
             writer = csv.writer(csvfile)
             writer.writerow(['x', 'y', 'z'])  # Header row
             writer.writerows(data)
-    except:
-        logger.error(f"savi")
+    except Exception as e:
+        logger.error(f"Error: {e}")
 
 def read_csv_data(filename):
     isFileExists(filename)
