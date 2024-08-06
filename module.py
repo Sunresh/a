@@ -3,7 +3,6 @@ import os
 import hashlib
 import shutil
 
-
 def calculate_hash_helper(file_path, hash_algo=hashlib.md5, chunk_size=4096):
     hash_obj = hash_algo()
     with open(file_path, "rb") as file:
