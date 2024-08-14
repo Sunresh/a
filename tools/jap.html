@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Run Scores</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            margin: 40;
+            padding: 40;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        #myPlot {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="myPlot"></div>
+    <script>
+        // 0, 0, 0, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 15921, 15921, 15921, 15921, 15921],
+        const playerScores = {
+            'Tendulkar': [0, 0, 0, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 15921, 15921, 15921, 15921, 15921],
+            'Ponting': [0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 13000, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378],
+            'Kallis': [500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 13000, 13289, 13289, 13289, 13289, 13289, 13289, 13289, 13289, 13289, 13289],
+            'Dravid': [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 13288, 13288, 13288, 13288, 13288, 13288, 13288, 13288, 13288, 13288, 13288],
+            'Cook': [0, 0, 0, 0, 0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 12472, 12472, 12472, 12472, 12472, 12472],
+            'Sangakkara': [0, 0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 12400, 12400, 12400, 12400, 12400, 12400, 12400, 12400, 12400],
+            'Lara': [2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953],
+            'Jayawardene': [0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 11814, 11814, 11814, 11814, 11814, 11814, 11814, 11814, 11814, 11814, 11814],
+            'Kohli': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8000, 8416, 8416, 8416, 8416, 8416],
+            'Smith': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8000, 8647, 8647, 8647]
+        };
+        const playerScoresr = {
+            'Tendulkar': [0, 0, 0, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 15921, 15921, 15921, 15921, 15921],
+            'Ponting': [0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 13000, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378],
+            'Kallis': [500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 13000, 13289, 13289, 13289, 13289, 13289, 13289, 13289, 13289, 13289, 13289],
+            'Dravid': [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 13288, 13288, 13288, 13288, 13288, 13288, 13288, 13288, 13288, 13288, 13288],
+            'Cook': [0, 0, 0, 0, 0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 12472, 12472, 12472, 12472, 12472, 12472],
+            'Sangakkara': [0, 0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 12400, 12400, 12400, 12400, 12400, 12400, 12400, 12400, 12400],
+            'Lara': [2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953, 11953],
+            'Jayawardene': [0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 11814, 11814, 11814, 11814, 11814, 11814, 11814, 11814, 11814, 11814, 11814],
+            'Kohli': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8000, 8416, 8416, 8416, 8416, 8416],
+            'Smith': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8000, 8647, 8647, 8647]
+        };
+
+        const players = Object.keys(playerScores);
+        const years = Array.from({length: 24}, (_, i) => 2000 + i);
+
+        let data = players.map(player => ({
+            y: [player],
+            x: [playerScores[player][0]],
+            name: player,
+            type: 'bar',
+            orientation: 'h'
+        }));
+
+        // Create frames for animation
+        let frames = years.map((year, index) => {
+            let frameData = players.map(player => ({
+                y: [player],
+                x: [playerScores[player][index]],
+                type: 'bar',
+                orientation: 'h',
+                name: player,
+                text: player,
+                textposition: 'inside',
+                insidetextanchor: 'middle',
+                textfont: {color: 'white'}
+            }));
+            // Sort frameData by score (descending)
+            frameData.sort((a, b) => b.x[0] - a.x[0]);
+            return {
+                name: year,
+                data: frameData
+            };
+        });
+
+        // Define layout
+        let layout = {
+            title: 'Cricket Run Scores in Test Matches (2000-2023)',
+            xaxis: {range: [0, 16000], title: 'Cumulative Run Score'},
+            yaxis: {title: '', showticklabels: false, autorange: true, categoryorder: 'total ascending'},
+            //yaxis: {title: '', showticklabels: false},
+            barmode: 'group',
+            height: 600,
+            updatemenus: [{
+                x: 500,
+                y: 12,
+                yanchor: 'bottom',
+                xanchor: 'right',
+                showactive: false,
+                direction: 'left',
+                type: 'buttons',
+                pad: {t: 87, r: 10},
+                buttons: [{
+                    method: 'animate',
+                    args: [null, {
+                        fromcurrent: true,
+                        transition: {duration: 1900},
+                        frame: {duration: 1500, redraw: true}
+                    }],
+                    label: ''
+                }, {
+                    method: 'animate',
+                    args: [[null], {
+                        mode: 'immediate',
+                        transition: {duration: 0},
+                        frame: {duration: 0, redraw: true}
+                    }],
+                    label: ''
+                }]
+            }],
+            sliders: [{
+                steps: years.map(year => ({
+                    method: 'animate',
+                    label: year,
+                    args: [[year], {
+                        mode: 'immediate',
+                        transition: {duration: 1900},
+                        frame: {duration: 1300, redraw: true}
+                    }]
+                })),
+                x: 0,
+                y: 0,
+                currentvalue: {
+                    visible: true,
+                    prefix: 'Year:',
+                    xanchor: 'right',
+                    font: {size: 20, color: '#666'}
+                },
+                transition: {duration: 300, easing: 'cubic-in-out'},
+            }]
+        };
+
+        // Create the plot
+        Plotly.newPlot('myPlot', frames[0].data, layout).then(function() {
+            Plotly.addFrames('myPlot', frames);
+        });
+    </script>
+</body>
+</html>
