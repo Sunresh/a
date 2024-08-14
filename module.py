@@ -2,6 +2,7 @@
 import os
 import hashlib
 import shutil
+import networkx as nx
 
 from matplotlib import pyplot as plt
 import pandas as pd
@@ -81,4 +82,74 @@ def plot_csv(file_path="C:/Users/nares/Downloads/240301/240301/240301_195952.csv
     plt.grid(False)
     
     # Show the plot
+    plt.show()
+    
+    
+    
+def lado():
+    # Create a directed graph
+    G = nx.DiGraph()
+
+    # Add nodes and edges based on the hierarchy
+    hierarchy = {
+        "Additive Manufacturing Micro 3D Printing Deposition Techniques": [
+            ("Photopolymerization-based Methods", [
+                "Two-Photon Polymerization (2PP)", 
+                "Stereolithography (SLA)", 
+                "Digital Light Processing (DLP)", 
+                "Continuous Liquid Interface Production (CLIP)"
+            ]),
+            ("Material Extrusion", [
+                "Fused Deposition Modeling (FDM) for micro-scale", 
+                "Direct Ink Writing (DIW)", 
+                "Robocasting"
+            ]),
+            ("Powder Bed Fusion", [
+                "Selective Laser Sintering (SLS) for micro-parts", 
+                "Micro Laser Sintering (MLS)", 
+                "Electron Beam Melting (EBM) adapted for micro-scale"
+            ]),
+            ("Direct Energy Deposition", [
+                "Laser Engineered Net Shaping (LENS) for micro-applications", 
+                "Electron Beam Additive Manufacturing (EBAM) at micro-scale"
+            ]),
+            ("Material Jetting", [
+                "Polyjet for micro-scale applications", 
+                "Nanoparticle Jetting (NPJ)"
+            ]),
+            ("Binder Jetting", [
+                "Micro-scale binder jetting for metal and ceramic parts"
+            ]),
+            ("Sheet Lamination", [
+                "Laminated Object Manufacturing (LOM) adapted for micro-scale"
+            ]),
+            ("Electrochemical and Electrohydrodynamic Methods", [
+                "Electrohydrodynamic Jet (E-Jet) Printing", 
+                "Electrochemical Deposition"
+            ]),
+            ("Laser-Assisted Methods", [
+                "Laser-Induced Forward Transfer (LIFT)", 
+                "Laser-Assisted Electrophoretic Deposition (LAEPD)"
+            ]),
+            ("Hybrid and Emerging Techniques", [
+                "Lithography-based Metal Manufacturing (LMM)", 
+                "Volumetric Additive Manufacturing", 
+                "4D Printing at Micro-scale"
+            ])
+        ]
+    }
+
+    # Add edges to the graph
+    for main, subcategories in hierarchy.items():
+        for category, techniques in subcategories:
+            G.add_edge(main, category)
+            for technique in techniques:
+                G.add_edge(category, technique)
+
+    # Draw the graph with a top-to-bottom layout
+    plt.figure(figsize=(10, 14))
+    pos = nx.nx_agraph.graphviz_layout(G, prog='dot')  # Use 'dot' for top-to-bottom hierarchy
+    nx.draw(G, pos, with_labels=True, arrows=False, node_size=3000, node_color="lightblue", 
+            font_size=10, font_weight="bold", edge_color="gray")
+    plt.title("Hierarchy of Additive Manufacturing Micro 3D Printing Deposition Techniques")
     plt.show()
