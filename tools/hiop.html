@@ -1,0 +1,123 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Cricket Run Scores</title>
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <style>
+                body {
+                    margin: 40;
+                    padding: 40;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    background-color: #f4f4f4;
+                }
+            </style>
+        </head>
+        <body>
+            <div id="myPlot" style="width:100%; height:100%;"></div>
+        <script>
+            const playerScores = {"Tendulkar": [0, 0, 0, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 15921, 15921, 15921, 15921, 15921], "Ponting": [0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 13000, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378], "ioi": [0, 0, 0, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 15921, 15921, 15921, 15921, 15921], "hh": [0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 13000, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378], "hgf": [0, 0, 0, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 15921, 15921, 15921, 15921, 15921], "ds": [0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 13000, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378], "Teniiidulkar": [0, 0, 0, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 15921, 15921, 15921, 15921, 15921], "Pontpping": [0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 13000, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378], "iouyt": [0, 0, 0, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 15921, 15921, 15921, 15921, 15921], "ouy": [0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 13000, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378], "gh": [0, 0, 0, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 15921, 15921, 15921, 15921, 15921], "qwe": [0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 13000, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378], "dfgh": [0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 13000, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378], "fgh": [0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 13000, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378], "yujk": [0, 0, 0, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 15921, 15921, 15921, 15921, 15921], "cvbn": [0, 0, 0, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 15921, 15921, 15921, 15921, 15921], "poi": [0, 500, 1500, 2500, 3500, 4500, 5500, 6500, 7500, 8500, 9500, 10500, 11500, 12000, 13000, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378, 13378]};
+            const players = ["Tendulkar", "Ponting", "ioi", "hh", "hgf", "ds", "Teniiidulkar", "Pontpping", "iouyt", "ouy", "gh", "qwe", "dfgh", "fgh", "yujk", "cvbn", "poi"];
+            const years = [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023];
+
+            let data = players.map(player => {
+                return {
+                    y: [player],
+                    x: [playerScores[player][0]],
+                    name: player,
+                    type: 'bar',
+                    orientation: 'h'
+                };
+            });
+
+            let frames = years.map((year, index) => {
+                let frameData = players.map(player => {
+                    return {
+                        y: [player],
+                        x: [playerScores[player][index]],
+                        type: 'bar',
+                        orientation: 'h',
+                        name: player,
+                        text: player,
+                        textposition: 'inside',
+                        insidetextanchor: 'middle',
+                        textfont: {color: 'white'}
+                    };
+                });
+                frameData.sort((a, b) => b.x[0] - a.x[0]);
+                return {
+                    name: year,
+                    data: frameData
+                };
+            });
+
+            let layout = {
+                title: 'Cricket Run Scores',
+                xaxis: {range: [0, 16000], title: 'Cumulative Run Score'},
+                yaxis: {title: '', showticklabels: false, autorange: true, categoryorder: 'total ascending'},
+                barmode: 'group',
+                height: 600,
+                updatemenus: [{
+                    x: 500,
+                    y: 12,
+                    yanchor: 'bottom',
+                    xanchor: 'right',
+                    showactive: false,
+                    direction: 'left',
+                    type: 'buttons',
+                    pad: {t: 87, r: 10},
+                    buttons: [{
+                        method: 'animate',
+                        args: [null, {
+                            fromcurrent: true,
+                            transition: {duration: 1900},
+                            frame: {duration: 1500, redraw: true}
+                        }],
+                        label: ''
+                    }, {
+                        method: 'animate',
+                        args: [[null], {
+                            mode: 'immediate',
+                            transition: {duration: 0},
+                            frame: {duration: 0, redraw: true}
+                        }],
+                        label: ''
+                    }]
+                }],
+                sliders: [{
+                    steps: years.map(year => {
+                        return {
+                            method: 'animate',
+                            label: year,
+                            args: [[year], {
+                                mode: 'immediate',
+                                transition: {duration: 1900},
+                                frame: {duration: 1300, redraw: true}
+                            }]
+                        };
+                    }),
+                    x: 0,
+                    y: 0,
+                    currentvalue: {
+                        visible: true,
+                        prefix: 'Year:',
+                        xanchor: 'right',
+                        font: {size: 20, color: '#666'}
+                    },
+                    transition: {duration: 300, easing: 'cubic-in-out'},
+                }]
+            };
+
+            Plotly.newPlot('myPlot', frames[0].data, layout).then(function() {
+                Plotly.addFrames('myPlot', frames);
+            });
+        </script>
+        
+        </body>
+        </html>
+        
