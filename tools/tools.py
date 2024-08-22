@@ -3,7 +3,8 @@ import os
 import subprocess
 import sys
 import json
-
+import customtkinter as ctk
+import tkinter as tk
 import numpy as np
 
 
@@ -12,7 +13,7 @@ import logging
 # Configure the logging settings
 logging.basicConfig(
     encoding='utf-8',          # Log encoding
-    filename='file.log',       # Log file name
+    filename='../file.log',       # Log file name
     level=logging.DEBUG,       # Log level
     format='%(asctime)s - %(filename)s - %(lineno)d - %(levelname)s - %(message)s'  # Log message format
 )
@@ -167,3 +168,29 @@ def c_round(number):
         return rounded + 1
     else:
         return rounded
+
+
+
+def create_listview(root, headers, items):
+    # Create a scrollable frame
+    frame = ctk.CTkScrollableFrame(root)
+    frame.pack(padx=10, pady=10, expand=True)
+
+    # Create header
+    header_frame = tk.Frame(frame)
+    header_frame.pack()
+
+    for header in headers:
+        label = tk.Label(header_frame, text=header, padx=10, pady=5, font=("Arial", 12, "bold"))
+        label.pack(side="left", padx=5)
+
+    # Create list items
+    for item in items:
+        item_frame = tk.Frame(frame)
+        item_frame.pack()
+
+        for value in item:
+            label = tk.Label(item_frame, text=value, padx=10, pady=5)
+            label.pack(side="left", padx=5)
+
+    return frame

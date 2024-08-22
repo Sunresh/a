@@ -6,7 +6,7 @@ from tkinter import filedialog
 import pandas as pd
 
 from constants import INPUT_VALUES
-from tools import find_json_value, read_json, update_json
+from tools.tools import find_json_value, read_json, update_json
 
 
 def double_backslashes(input_string):
@@ -37,6 +37,18 @@ def open_file_dialog(key):
         #load_settings(master,file_path)
 
 
+def open_file_dialog_t(key):
+    file_path = filedialog.askopenfilename(
+        title="Select a File",
+        filetypes=[("CSV files", "*.csv"), ("All files", "*.*")]
+    )
+    if file_path:
+        logging.info(f"Selected file: {file_path}")
+        update_json(INPUT_VALUES, key, file_path)
+        # load_settings(master, file_path)
+        return True
+    else:
+        return False
 # Function to create entries with unique IDs
 def create_entry(frame,json_key):
     read_da = read_json(INPUT_VALUES)
@@ -56,3 +68,4 @@ def create_entry(frame,json_key):
     )
     entry.grid(row=1,column=1, columnspan=2)
     return entry
+

@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 from matplotlib.ticker import MultipleLocator
 import numpy as np
 from constants import INPUT_VALUES, RADIUS_OF_COIL, SPIRAL_CSV_FILE
-from tools import c_round, find_json_value, get_csv_max, read_csv_data, save_to_csv
+from tools.tools import c_round, find_json_value, get_csv_max, read_csv_data, save_to_csv
 
 
 class Spiral:

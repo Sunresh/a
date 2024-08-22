@@ -3,9 +3,17 @@ import os
 import hashlib
 import shutil
 import networkx as nx
+import customtkinter as ctk
+from tkinter import StringVar
 
 from matplotlib import pyplot as plt
 import pandas as pd
+
+
+from constants import INPUT_VALUES
+from tools.tools import find_json_value, create_listview
+from ui_helper import open_file_dialog_t, open_file_dialog
+
 
 def calculate_hash_helper(file_path, hash_algo=hashlib.md5, chunk_size=4096):
     hash_obj = hash_algo()
@@ -33,7 +41,7 @@ def find_duplicate_pdfs_helper( folder="C:/Users/nares/Desktop/LAB/Thesis/３．
     return duplicates
 
 
-def search_duplicatePDF():
+def search_duplicatePDF(root):
     # Usage example:
     duplicates = find_duplicate_pdfs_helper()
     if duplicates:
@@ -43,50 +51,54 @@ def search_duplicatePDF():
     else:
         print("No duplicate PDF files found.")
 
-def copy_pdfs(src_folder='C:/Users/nares/Zotero/storage', dest_folder='C:/Users/nares/Videos/Captures'):
+def copy_pdfs(root=None, src_folder='C:/Users/nares/Zotero/storage', dest_folder='C:/Users/nares/Videos/Captures'):
     if not os.path.exists(dest_folder):
         os.makedirs(dest_folder)
 
-    for root, dirs, files in os.walk(src_folder):
+    for rooti, dirs, files in os.walk(src_folder):
         for file in files:
             if file.lower().endswith('.pdf'):
-                src_file_path = os.path.join(root, file)
+                src_file_path = os.path.join(rooti, file)
                 dest_file_path = os.path.join(dest_folder, file)
                 shutil.copy2(src_file_path, dest_file_path)
                 print(f"Copied {src_file_path} to {dest_file_path}")
 
-def plot_csv(file_path="C:/Users/nares/Downloads/240301/240301/240301_195952.csv", x_column="time(s)", y_column="BD"):
+def plot_csv(root, file_path="C:/Users/nares/Downloads/240301/240301/240301_195952.csv", x_column="sn", y_column="bd"):
     # Read the CSV file into a DataFrame
-    df = pd.read_csv(file_path)
-    df[x_column] = (df[x_column].astype(float))/10
-    df[y_column] = (df[y_column].astype(float))*400
+    open_file_dialog("plot_csv")
+
+    csv_file = find_json_value(INPUT_VALUES, "plot_csv")
+    df = pd.read_csv(csv_file)
+    df[x_column] = (df[x_column].astype(float)) / 10
+    df[y_column] = (df[y_column].astype(float)) * 400
     # Check if the specified columns exist in the DataFrame
     if x_column not in df.columns or y_column not in df.columns:
         raise ValueError(f"Columns '{x_column}' or '{y_column}' not found in the CSV file.")
-    
-    # Skip the first 20 frames
+
+        # Skip the first 20 frames
     df = df.iloc[64:-40]
-    # Plot the data
+        # Plot the data
     plt.figure(figsize=(10, 6))
-    
-    plt.plot(df[x_column], df[y_column],)# marker='o')
-    # hori = 35.0
-    # plt.axhline(y=hori, color='r', linestyle='--', label=hori)  # Add this line to plot the horizontal line at y=0.5
-    # plt.axhline(y=hori/2.5, color='g', linestyle='--', label=hori/2.5)  # Add this line to plot the horizontal line at y=0.5
-    # Add labels and title
+
+    plt.plot(df[x_column], df[y_column], )  # marker='o')
+        # hori = 35.0
+        # plt.axhline(y=hori, color='r', linestyle='--', label=hori)  # Add this line to plot the horizontal line at y=0.5
+        # plt.axhline(y=hori/2.5, color='g', linestyle='--', label=hori/2.5)  # Add this line to plot the horizontal line at y=0.5
+        # Add labels and title
     plt.xlabel("Time (s)")
     plt.ylabel("Brightness intensity")
     plt.title('')
-    # plt.legend()
-    # Show grid
+        # plt.legend()
+        # Show grid
     plt.grid(False)
-    
-    # Show the plot
+
+        # Show the plot
     plt.show()
+
+
+
     
-    
-    
-def lado():
+def labeling(root= None):
     # Create a directed graph
     G = nx.DiGraph()
 
@@ -153,3 +165,71 @@ def lado():
             font_size=10, font_weight="bold", edge_color="gray")
     plt.title("Hierarchy of Additive Manufacturing Micro 3D Printing Deposition Techniques")
     plt.show()
+
+
+def plot_csvy(root, x_column="sn", y_column="bd"):
+    # Function to be called when OK button is pressed
+    if open_file_dialog_t("plot_csv"):
+        csv_file = find_json_value(INPUT_VALUES, "plot_csv")
+        dfo = pd.read_csv(csv_file)
+        print(list(dfo.columns))
+
+        def on_ok():
+            # Retrieve input value from the entry
+            input_value = entry.get()
+            print("User input:", input_value)  # For debugging or further use
+
+            # Destroy the popup window after the input is taken
+            popup.destroy()
+
+            # Proceed with the plotting process
+            plot_data()
+
+        def plot_data():
+            df = pd.read_csv(csv_file)
+            df[x_column] = (df[x_column].astype(float)) / 10
+            df[y_column] = (df[y_column].astype(float)) * 400
+
+            # Check if the specified columns exist in the DataFrame
+            if x_column not in df.columns or y_column not in df.columns:
+                raise ValueError(f"Columns '{x_column}' or '{y_column}' not found in the CSV file.")
+
+            # Skip the first 20 frames
+            df = df.iloc[64:-40]
+
+            # Plot the data
+            plt.figure(figsize=(10, 6))
+            plt.plot(df[x_column], df[y_column])
+
+            # Add labels and title
+            plt.xlabel("Time (s)")
+            plt.ylabel("Brightness intensity")
+            plt.title('')
+
+            # Show grid
+            plt.grid(False)
+
+            # Show the plot
+            plt.show()
+
+        # Create a popup window
+        popup = ctk.CTkToplevel(root)
+        popup.geometry("300x150")
+        popup.title("Input Required")
+        popup.attributes("-topmost", True)
+        # Label and Entry for input
+        headers = ["X-axis", "Y-axis"]
+        items = [list(dfo.columns), list(dfo.columns)]
+
+        # Create the listview
+        create_listview(popup, headers, items)
+
+        label = ctk.CTkLabel(popup, text="Description:")
+        label.pack(pady=10)
+        entry = ctk.CTkEntry(popup)
+        entry.pack(pady=10)
+
+        # OK button to save input and close popup
+        ok_button = ctk.CTkButton(popup, text="OK", command=on_ok)
+        ok_button.pack(pady=20)
+

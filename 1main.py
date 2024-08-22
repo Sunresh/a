@@ -4,8 +4,7 @@ import customtkinter
 from all_graph import one_graph_all_param, non_truncate, truncate_plot, two_file_plot_data
 from constants import INPUT_BTN_LIST, INPUT_VALUES, SPIRAL_CSV_FILE
 from spiral import Spiral
-from src import Process
-from tools import find_json_value, read_json, save_as_json, update_json, logger
+from tools.tools import find_json_value, read_json, save_as_json, update_json, logger
 from ui_helper import create_entry, open_file_dialog
 
 customtkinter.set_appearance_mode("Light")  # Modes: "System" (standard), "Dark", "Light"
