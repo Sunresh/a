@@ -1,0 +1,66 @@
+data_bar.html
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="https://npmcdn.com/chart.js@latest/dist/Chart.bundle.min.js"></script>
+<script type="text/javascript" src="../src/index.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<header>
+<h1>100%積み上げ縦棒</h1>
+
+</header>
+
+<main>
+<div style="width: 1000px;">
+<canvas id="my-chart-3"></canvas></div>
+<script>
+new Chart(document.getElementById("my-chart-3"), {
+ type: "bar",
+ data: {
+   labels: ["6/1", "7/1", "8/1", "9/1", "10/1"],
+   datasets: [
+     { label: "1~10位", data: [10, 9, 20], backgroundColor: "rgba(244, 143, 177, 0.6)" },
+     { label: "11~20位", data: [20, 6, 30], backgroundColor: "rgba(255, 235, 59, 0.6)" },
+     { label: "21~30位", data: [30, 12, 40], backgroundColor: "rgba(100, 181, 246, 0.6)" },
+     { label: "31~50位", data: [40, 8, 40], backgroundColor: "rgba(100, 93, 50, 0.6)" },
+     { label: "51~100位", data: [60, 6, 60], backgroundColor: "rgba(100, 23, 88, 0.6)" }     
+   ]
+ },
+ options: {
+   plugins: {
+     stacked100: { enable: true }
+   },
+   title: {                           //タイトル設定
+               display: true,                 //表示設定
+               text: '順位上昇達成率'                //ラベル
+           },
+   scales: {                          //軸設定
+     xAxes: [{
+               stacked: true
+           }],
+     yAxes: [{                      //y軸設定
+                 stacked: true,
+                   display: true,             //表示設定
+                   scaleLabel: {              //軸ラベル設定
+                      display: true,          //表示設定
+                      fontSize: 18               //フォントサイズ
+                   },
+                   ticks: {                      //最大値最小値設定
+                       min: 0,                   //最小値
+                       max: 100,                  //最大値
+                       fontSize: 18,             //フォントサイズ
+                       stepSize: 20              //軸間隔
+                   },
+               }],
+             },
+   legend: {
+     display: true,
+   }
+ }
+});
+</script>
+</main>
+</body>
+ 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['timeline']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var container = document.getElementById('timeline');
+        var chart = new google.visualization.Timeline(container);
+        var dataTable = new google.visualization.DataTable();
+
+        dataTable.addColumn({ type: 'string', id: '設備ID' });
+        dataTable.addColumn({ type: 'string', id: '状態' });
+        dataTable.addColumn({ type: 'date', id: '開始' });
+        dataTable.addColumn({ type: 'date', id: '終了' });
+
+        dataTable.addRows([
+          [ '設備1', '稼働', new Date(2024, 3, 1), new Date(2024, 3, 15) ],
+          [ '設備1', '停止', new Date(2024, 3, 15), new Date(2024, 3, 16) ],
+          [ '設備1', '稼働', new Date(2024, 3, 18), new Date(2024, 3, 20) ],
+          [ '設備2', '稼働', new Date(2024, 3, 5), new Date(2024, 3, 20) ],
+          [ '設備2', '停止', new Date(2024, 3, 20), new Date(2024, 4, 5) ],
+          // 他の設備のログデータ...
+        ]);
+
+        chart.draw(dataTable);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="timeline" style="height: 180px; width: 400px;"></div>
+  </body>
+</html>

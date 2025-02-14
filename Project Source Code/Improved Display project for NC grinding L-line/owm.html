@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="stylesheet" type="text/css" href="owm.css">    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="owm.js"></script>
+    <title>ライン情報表示</title>
+</head>
+<body onload="data_set()" style="background-color: #f0f0f0; font-family: Arial, sans-serif;">
+    <div style="display: flex; justify-content: space-between; padding: 20px; background-color: #fff;">
+        <div>
+            <button style="margin-right: 20px; padding: 10px; font-size: 1rem;" type="button" onclick="division_update()">リスト更新</button>
+            <label style="margin-right: 10px;">部署</label>
+            <select id="sel_div" onchange="division_change(this.value)">
+                <?php echo $division_list; ?>
+            </select>
+            <label style="margin-left: 20px; margin-right: 10px;">ライン名</label>
+            <select id="sel_line">
+            </select>
+        </div>
+        <div>
+            <label style="margin-right: 10px;">集計開始日</label>
+            <input type="datetime-local" id="startDate">
+            <label style="margin-left: 20px; margin-right: 10px;">集計終了日</label>
+            <input type="datetime-local" id="endDate">
+            <button style="margin-left: 20px; padding: 10px; font-size: 1rem;" type="button" onclick="data_disp()">表示</button>
+        </div>
+    </div>
+    <div style="margin-top: 20px; padding: 20px; background-color: #fff;">
+        <table id="myTable" style="width: 100%; border-collapse: collapse;">
+            <tr>
+                <th>品番</th>
+                <th>開始日</th> 
+                <th>終了日</th>
+                <th>生産個数</th>
+            </tr>
+        </table>
+    </div>
+    <!-- <div id='graph' style="margin-top: 20px; height: 180px; background-color: #fff;">
+    </div> -->
+    <p id="message"></p>
+</body>

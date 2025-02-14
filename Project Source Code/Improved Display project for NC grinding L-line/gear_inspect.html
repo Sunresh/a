@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ギヤの取り付け姿勢判定</title>
+</head>
+<body>
+    <h1>ギヤの取り付け姿勢判定</h1>
+    <input type="file" id="templateImage" accept="image/*">
+    <input type="file" id="testImage" accept="image/*">
+    <button onclick="matchTemplate()">判定開始</button>
+    <canvas id="canvasOutput" width="640" height="480"></canvas>
+
+    <script src="https://docs.opencv.org/4.x/opencv.js" type="text/javascript"></script>
+    <script>
+        let templateMat, testMat;
+        
+        function loadImage(fileInput, callback) {
+            let file = fileInput.files[0];
+            let reader = new FileReader();
+            reader.onload = function(e) {
+                let img = new Image();
+                img.onload = function() {
+                    let canvas = document.createElement('canvas');
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+                    let ctx = canvas.getContext('2d');
+                    ctx.drawImage(img, 0, 0, img.width, img.height);
+                    let mat = cv.imread(canvas);
+                    callback(mat);
+                };
+                img.src = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        document.getElementById('templateImage').addEventListener('change', function() {
+            loadImage(this, function(mat) {
+                templateMat = mat;
+            });
+        });
+
+        document.getElementById('testImage').addEventListener('change', function() {
+            loadImage(this, function(mat) {
+                testMat = mat;
+            });
+        });
+
+        function matchTemplate() {
+            if (!templateMat || !testMat) {
+                alert("両方の画像をアップロードしてください。");
+                return;
+            }
+            
+            let result = new cv.Mat();
+            let mask = new cv.Mat();
+            cv.matchTemplate(testMat, templateMat, result, cv.TM_CCOEFF_NORMED, mask);
+            let minMax = cv.minMaxLoc(result, mask);
+            let maxPoint = minMax.maxLoc;
+            
+            let point = new cv.Point(maxPoint.x + templateMat.cols, maxPoint.y + templateMat.rows);
+            cv.rectangle(testMat, maxPoint, point, [0, 255, 0, 255], 2, cv.LINE_8, 0);
+            cv.imshow('canvasOutput', testMat);
+
+            result.delete();
+            mask.delete();
+        }
+    </script>
+</body>
+</html>
