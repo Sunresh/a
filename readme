@@ -1,0 +1,8 @@
+python -m venv $HOME\sun
+$HOME\sun\Scripts\Activate
+& $HOME\sun\Scripts\Activate.ps1
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser
+& $HOME\sun\Scripts\Activate.ps1
+pip install pandas
+pip install matplotlib
+python 1main.py  
