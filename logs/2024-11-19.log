@@ -1,0 +1,34 @@
+2024-11-19 11:24:55,063 - tools - INFO - find_json_value: reso into json/input_values.json is 0.005
+2024-11-19 11:24:55,064 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 30.0
+2024-11-19 11:24:55,065 - tools - INFO - find_json_value: steps into json/input_values.json is 400.0
+2024-11-19 11:24:55,065 - tools - INFO - find_json_value: coil_radius into json/input_values.json is None
+2024-11-19 11:24:55,066 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-11-19 11:24:55,066 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-11-19 11:25:01,504 - tools - INFO - {'anglr_': 30.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 5.0, 'reso': 0.005} is saved in json/input_values.json as JSON successfully.
+2024-11-19 11:25:01,504 - tools - INFO - Key=steps,And Value=500.0 is updated into json/input_values.json
+2024-11-19 11:25:11,237 - tools - INFO - {'anglr_': 60.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 5.0, 'reso': 0.005} is saved in json/input_values.json as JSON successfully.
+2024-11-19 11:25:11,237 - tools - INFO - Key=anglr_,And Value=60.0 is updated into json/input_values.json
+2024-11-19 11:25:12,840 - tools - INFO - find_json_value: steps into json/input_values.json is 500.0
+2024-11-19 11:25:12,840 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60.0
+2024-11-19 11:25:12,840 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-11-19 11:25:12,840 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-11-19 11:25:12,841 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-11-19 11:25:12,850 - __main__ - INFO - show_selected_item==Generate_X_Rotate
+2024-11-19 11:25:12,851 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60.0
+2024-11-19 11:25:27,366 - tools - INFO - find_json_value: steps into json/input_values.json is 500.0
+2024-11-19 11:25:27,367 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60.0
+2024-11-19 11:25:27,367 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-11-19 11:25:27,367 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-11-19 11:25:27,367 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-11-19 11:25:27,372 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60.0
+2024-11-19 11:25:43,095 - tools - INFO - find_json_value: steps into json/input_values.json is 500.0
+2024-11-19 11:25:43,096 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60.0
+2024-11-19 11:25:43,096 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-11-19 11:25:43,096 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-11-19 11:25:43,097 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-11-19 11:25:43,103 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60.0
+2024-11-19 11:25:46,583 - tools - INFO - find_json_value: steps into json/input_values.json is 500.0
+2024-11-19 11:25:46,583 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60.0
+2024-11-19 11:25:46,584 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-11-19 11:25:46,584 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-11-19 11:25:46,585 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
