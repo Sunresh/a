@@ -3,5 +3,6 @@
     "steps": 400.0,
     "base_h": 2.0,
     "total_h": 5.0,
-    "reso": 0.005
+    "reso": 0.005,
+    "coil_radius": "coil_radius"
 }

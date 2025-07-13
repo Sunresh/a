@@ -1,0 +1,71 @@
+2025-07-13 11:35:43,862 - tools - INFO - find_json_value: reso into json/input_values.json is 0.005
+2025-07-13 11:35:43,864 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 45.0
+2025-07-13 11:35:43,864 - tools - INFO - find_json_value: steps into json/input_values.json is 400.0
+2025-07-13 11:35:43,866 - tools - INFO - find_json_value: coil_radius into json/input_values.json is None
+2025-07-13 11:35:43,866 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2025-07-13 11:35:43,866 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2025-07-13 11:36:07,915 - tools - INFO - find_json_value: steps into json/input_values.json is 400.0
+2025-07-13 11:36:07,925 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 45.0
+2025-07-13 11:36:07,925 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2025-07-13 11:36:07,925 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2025-07-13 11:36:07,925 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2025-07-13 11:36:07,925 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2025-07-13 11:36:07,925 - all_graph - ERROR - one_graph_all_param
+Traceback (most recent call last):
+  File "C:\Users\dayab\Documents\github\a\all_graph.py", line 12, in one_graph_all_param
+    dataframe = pd.read_csv(file)
+                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\dayab\Documents\github\a\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dayab\Documents\github\a\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dayab\Documents\github\a\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dayab\Documents\github\a\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\dayab\Documents\github\a\.venv\Lib\site-packages\pandas\io\common.py", line 728, in get_handle
+    ioargs = _get_filepath_or_buffer(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dayab\Documents\github\a\.venv\Lib\site-packages\pandas\io\common.py", line 472, in _get_filepath_or_buffer
+    raise ValueError(msg)
+ValueError: Invalid file path or buffer object type: <class 'NoneType'>
+2025-07-13 11:36:09,922 - tools - INFO - {'anglr_': 45.0, 'steps': 400.0, 'base_h': 2.0, 'total_h': 5.0, 'reso': 0.005} is saved in json/input_values.json as JSON successfully.
+2025-07-13 11:36:09,922 - tools - INFO - Key=reso,And Value=0.005 is updated into json/input_values.json
+2025-07-13 11:36:14,311 - tools - INFO - {'anglr_': 45.0, 'steps': 400.0, 'base_h': 2.0, 'total_h': 5.0, 'reso': 0.005} is saved in json/input_values.json as JSON successfully.
+2025-07-13 11:36:14,312 - tools - INFO - Key=anglr_,And Value=45.0 is updated into json/input_values.json
+2025-07-13 11:36:15,757 - tools - INFO - {'anglr_': 45.0, 'steps': 400.0, 'base_h': 2.0, 'total_h': 5.0, 'reso': 0.005} is saved in json/input_values.json as JSON successfully.
+2025-07-13 11:36:15,757 - tools - INFO - Key=steps,And Value=400.0 is updated into json/input_values.json
+2025-07-13 11:36:16,696 - tools - INFO - {'anglr_': 45.0, 'steps': 400.0, 'base_h': 2.0, 'total_h': 5.0, 'reso': 0.005, 'coil_radius': 'coil_radius'} is saved in json/input_values.json as JSON successfully.
+2025-07-13 11:36:16,698 - tools - INFO - Key=coil_radius,And Value=coil_radius is updated into json/input_values.json
+2025-07-13 11:36:17,348 - tools - INFO - {'anglr_': 45.0, 'steps': 400.0, 'base_h': 2.0, 'total_h': 5.0, 'reso': 0.005, 'coil_radius': 'coil_radius'} is saved in json/input_values.json as JSON successfully.
+2025-07-13 11:36:17,348 - tools - INFO - Key=base_h,And Value=2.0 is updated into json/input_values.json
+2025-07-13 11:36:18,035 - tools - INFO - {'anglr_': 45.0, 'steps': 400.0, 'base_h': 2.0, 'total_h': 5.0, 'reso': 0.005, 'coil_radius': 'coil_radius'} is saved in json/input_values.json as JSON successfully.
+2025-07-13 11:36:18,035 - tools - INFO - Key=total_h,And Value=5.0 is updated into json/input_values.json
+2025-07-13 11:36:19,252 - tools - INFO - find_json_value: steps into json/input_values.json is 400.0
+2025-07-13 11:36:19,252 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 45.0
+2025-07-13 11:36:19,252 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2025-07-13 11:36:19,252 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2025-07-13 11:36:19,257 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2025-07-13 11:36:19,261 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 45.0
+2025-07-13 11:36:28,554 - tools - INFO - find_json_value: steps into json/input_values.json is 400.0
+2025-07-13 11:36:28,554 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 45.0
+2025-07-13 11:36:28,554 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2025-07-13 11:36:28,554 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2025-07-13 11:36:28,554 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2025-07-13 11:36:28,554 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 45.0
+2025-07-13 11:36:40,300 - tools - INFO - find_json_value: steps into json/input_values.json is 400.0
+2025-07-13 11:36:40,301 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 45.0
+2025-07-13 11:36:40,301 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2025-07-13 11:36:40,301 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2025-07-13 11:36:40,302 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2025-07-13 11:36:40,305 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 45.0
+2025-07-13 11:36:58,352 - tools - INFO - find_json_value: steps into json/input_values.json is 400.0
+2025-07-13 11:36:58,352 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 45.0
+2025-07-13 11:36:58,352 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2025-07-13 11:36:58,352 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2025-07-13 11:36:58,352 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2025-07-13 11:36:58,352 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 45.0
