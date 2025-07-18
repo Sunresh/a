@@ -7,7 +7,9 @@ pip install pandas
 pip install matplotlib
 python 1main.py  
 
-venv/Scripts/activate.ps1
+.venv/Scripts/activate.ps1
 pip freeze > requirements.txt
 pip install -r requirements.txt
+
+pyinstaller --onefile --windowed your_file_name.py
 
